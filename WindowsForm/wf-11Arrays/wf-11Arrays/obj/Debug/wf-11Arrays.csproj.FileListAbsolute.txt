@@ -1,0 +1,11 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-11Arrays\wf-11Arrays\bin\Debug\wf-11Arrays.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-11Arrays\wf-11Arrays\bin\Debug\wf-11Arrays.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-11Arrays\wf-11Arrays\bin\Debug\wf-11Arrays.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-11Arrays\wf-11Arrays\obj\Debug\wf-11Arrays.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-11Arrays\wf-11Arrays\obj\Debug\wf_11Arrays.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-11Arrays\wf-11Arrays\obj\Debug\wf_11Arrays.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-11Arrays\wf-11Arrays\obj\Debug\wf-11Arrays.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-11Arrays\wf-11Arrays\obj\Debug\wf-11Arrays.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-11Arrays\wf-11Arrays\obj\Debug\wf-11Arrays.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-11Arrays\wf-11Arrays\obj\Debug\wf_11Arrays.Form2.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-11Arrays\wf-11Arrays\obj\Debug\wf_11Arrays.Form3.resources

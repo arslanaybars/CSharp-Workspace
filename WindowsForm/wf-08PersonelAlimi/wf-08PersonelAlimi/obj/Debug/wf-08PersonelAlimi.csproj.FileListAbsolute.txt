@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\bin\Debug\wf-08PersonelAlimi.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\bin\Debug\wf-08PersonelAlimi.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\bin\Debug\wf-08PersonelAlimi.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\obj\Debug\wf-08PersonelAlimi.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\obj\Debug\wf_08PersonelAlimi.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\obj\Debug\wf_08PersonelAlimi.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\obj\Debug\wf-08PersonelAlimi.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\obj\Debug\wf-08PersonelAlimi.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\obj\Debug\wf-08PersonelAlimi.pdb

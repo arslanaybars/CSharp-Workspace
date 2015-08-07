@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\bin\Debug\wf-16SatisAnalizi.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\obj\Debug\wf-16SatisAnalizi.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\obj\Debug\wf_16SatisAnalizi.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\obj\Debug\wf_16SatisAnalizi.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\obj\Debug\wf-16SatisAnalizi.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\bin\Debug\wf-16SatisAnalizi.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\bin\Debug\wf-16SatisAnalizi.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\obj\Debug\wf-16SatisAnalizi.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\obj\Debug\wf-16SatisAnalizi.pdb

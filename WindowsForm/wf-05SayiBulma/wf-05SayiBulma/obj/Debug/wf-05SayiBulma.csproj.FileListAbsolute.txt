@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\bin\Debug\wf-05SayiBulma.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\bin\Debug\wf-05SayiBulma.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\bin\Debug\wf-05SayiBulma.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\obj\Debug\wf_05SayiBulma.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\obj\Debug\wf_05SayiBulma.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\obj\Debug\wf-05SayiBulma.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\obj\Debug\wf-05SayiBulma.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\obj\Debug\wf-05SayiBulma.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\obj\Debug\wf-05SayiBulma.csprojResolveAssemblyReference.cache

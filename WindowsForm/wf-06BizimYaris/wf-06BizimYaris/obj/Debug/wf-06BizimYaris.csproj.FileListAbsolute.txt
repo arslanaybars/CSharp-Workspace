@@ -1,0 +1,8 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-06BizimYaris\wf-06BizimYaris\bin\Debug\wf-06BizimYaris.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-06BizimYaris\wf-06BizimYaris\bin\Debug\wf-06BizimYaris.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-06BizimYaris\wf-06BizimYaris\bin\Debug\wf-06BizimYaris.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-06BizimYaris\wf-06BizimYaris\obj\Debug\wf_06BizimYaris.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-06BizimYaris\wf-06BizimYaris\obj\Debug\wf_06BizimYaris.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-06BizimYaris\wf-06BizimYaris\obj\Debug\wf-06BizimYaris.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-06BizimYaris\wf-06BizimYaris\obj\Debug\wf-06BizimYaris.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-06BizimYaris\wf-06BizimYaris\obj\Debug\wf-06BizimYaris.pdb

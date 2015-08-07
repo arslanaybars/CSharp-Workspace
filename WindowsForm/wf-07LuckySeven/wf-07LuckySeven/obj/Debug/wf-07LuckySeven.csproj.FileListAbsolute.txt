@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-07LuckySeven\wf-07LuckySeven\bin\Debug\wf-07LuckySeven.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-07LuckySeven\wf-07LuckySeven\bin\Debug\wf-07LuckySeven.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-07LuckySeven\wf-07LuckySeven\bin\Debug\wf-07LuckySeven.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-07LuckySeven\wf-07LuckySeven\obj\Debug\wf-07LuckySeven.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-07LuckySeven\wf-07LuckySeven\obj\Debug\wf_07LuckySeven.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-07LuckySeven\wf-07LuckySeven\obj\Debug\wf_07LuckySeven.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-07LuckySeven\wf-07LuckySeven\obj\Debug\wf-07LuckySeven.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-07LuckySeven\wf-07LuckySeven\obj\Debug\wf-07LuckySeven.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-07LuckySeven\wf-07LuckySeven\obj\Debug\wf-07LuckySeven.pdb

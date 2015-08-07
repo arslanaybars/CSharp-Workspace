@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-02Toplama\wf-02Toplama\bin\Debug\wf-02Toplama.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-02Toplama\wf-02Toplama\obj\Debug\wf_02Toplama.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-02Toplama\wf-02Toplama\obj\Debug\wf_02Toplama.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-02Toplama\wf-02Toplama\obj\Debug\wf-02Toplama.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-02Toplama\wf-02Toplama\bin\Debug\wf-02Toplama.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-02Toplama\wf-02Toplama\bin\Debug\wf-02Toplama.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-02Toplama\wf-02Toplama\obj\Debug\wf-02Toplama.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-02Toplama\wf-02Toplama\obj\Debug\wf-02Toplama.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-02Toplama\wf-02Toplama\obj\Debug\wf-02Toplama.csprojResolveAssemblyReference.cache

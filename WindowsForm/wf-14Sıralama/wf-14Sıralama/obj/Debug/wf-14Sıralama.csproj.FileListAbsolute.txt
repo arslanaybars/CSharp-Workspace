@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-14Sıralama\wf-14Sıralama\bin\Debug\wf-14Sıralama.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-14Sıralama\wf-14Sıralama\bin\Debug\wf-14Sıralama.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-14Sıralama\wf-14Sıralama\bin\Debug\wf-14Sıralama.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-14Sıralama\wf-14Sıralama\obj\Debug\wf-14Sıralama.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-14Sıralama\wf-14Sıralama\obj\Debug\wf_14Sıralama.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-14Sıralama\wf-14Sıralama\obj\Debug\wf_14Sıralama.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-14Sıralama\wf-14Sıralama\obj\Debug\wf-14Sıralama.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-14Sıralama\wf-14Sıralama\obj\Debug\wf-14Sıralama.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-14Sıralama\wf-14Sıralama\obj\Debug\wf-14Sıralama.pdb

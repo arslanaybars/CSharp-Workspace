@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-03PiSayisi\wf-03PiSayisi\bin\Debug\wf-03PiSayisi.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-03PiSayisi\wf-03PiSayisi\bin\Debug\wf-03PiSayisi.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-03PiSayisi\wf-03PiSayisi\bin\Debug\wf-03PiSayisi.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-03PiSayisi\wf-03PiSayisi\obj\Debug\wf_03PiSayisi.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-03PiSayisi\wf-03PiSayisi\obj\Debug\wf_03PiSayisi.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-03PiSayisi\wf-03PiSayisi\obj\Debug\wf-03PiSayisi.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-03PiSayisi\wf-03PiSayisi\obj\Debug\wf-03PiSayisi.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-03PiSayisi\wf-03PiSayisi\obj\Debug\wf-03PiSayisi.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-03PiSayisi\wf-03PiSayisi\obj\Debug\wf-03PiSayisi.csprojResolveAssemblyReference.cache

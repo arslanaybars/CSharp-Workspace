@@ -1,0 +1,12 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\bin\Debug\wf-17Metodlar.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\bin\Debug\wf-17Metodlar.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\bin\Debug\wf-17Metodlar.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf-17Metodlar.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf_17Metodlar.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf_17Metodlar.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf-17Metodlar.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf-17Metodlar.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf-17Metodlar.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf_17Metodlar.Form2.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf_17Metodlar.Form3.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf_17Metodlar.Form4.resources

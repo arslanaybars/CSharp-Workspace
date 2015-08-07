@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-12Sozluk\wf-12Sozluk\bin\Debug\wf-12Sozluk.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-12Sozluk\wf-12Sozluk\bin\Debug\wf-12Sozluk.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-12Sozluk\wf-12Sozluk\bin\Debug\wf-12Sozluk.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-12Sozluk\wf-12Sozluk\obj\Debug\wf_12Sozluk.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-12Sozluk\wf-12Sozluk\obj\Debug\wf_12Sozluk.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-12Sozluk\wf-12Sozluk\obj\Debug\wf-12Sozluk.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-12Sozluk\wf-12Sozluk\obj\Debug\wf-12Sozluk.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-12Sozluk\wf-12Sozluk\obj\Debug\wf-12Sozluk.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-12Sozluk\wf-12Sozluk\obj\Debug\wf-12Sozluk.csprojResolveAssemblyReference.cache

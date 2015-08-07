@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-04Donguler\wf-04Donguler\bin\Debug\wf-04Donguler.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-04Donguler\wf-04Donguler\bin\Debug\wf-04Donguler.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-04Donguler\wf-04Donguler\bin\Debug\wf-04Donguler.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-04Donguler\wf-04Donguler\obj\Debug\wf-04Donguler.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-04Donguler\wf-04Donguler\obj\Debug\wf_04Donguler.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-04Donguler\wf-04Donguler\obj\Debug\wf_04Donguler.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-04Donguler\wf-04Donguler\obj\Debug\wf-04Donguler.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-04Donguler\wf-04Donguler\obj\Debug\wf-04Donguler.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-04Donguler\wf-04Donguler\obj\Debug\wf-04Donguler.pdb

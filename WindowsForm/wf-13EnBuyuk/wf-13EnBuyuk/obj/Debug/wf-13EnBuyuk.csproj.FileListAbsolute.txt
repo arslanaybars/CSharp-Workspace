@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-13EnBuyuk\wf-13EnBuyuk\bin\Debug\wf-13EnBuyuk.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-13EnBuyuk\wf-13EnBuyuk\bin\Debug\wf-13EnBuyuk.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-13EnBuyuk\wf-13EnBuyuk\bin\Debug\wf-13EnBuyuk.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-13EnBuyuk\wf-13EnBuyuk\obj\Debug\wf-13EnBuyuk.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-13EnBuyuk\wf-13EnBuyuk\obj\Debug\wf_13EnBuyuk.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-13EnBuyuk\wf-13EnBuyuk\obj\Debug\wf_13EnBuyuk.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-13EnBuyuk\wf-13EnBuyuk\obj\Debug\wf-13EnBuyuk.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-13EnBuyuk\wf-13EnBuyuk\obj\Debug\wf-13EnBuyuk.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-13EnBuyuk\wf-13EnBuyuk\obj\Debug\wf-13EnBuyuk.pdb

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wf-03PiSayisi", "wf-03PiSayisi\wf-03PiSayisi.csproj", "{B0398AD5-B99C-47AD-BD02-BE67D762A5A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0398AD5-B99C-47AD-BD02-BE67D762A5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0398AD5-B99C-47AD-BD02-BE67D762A5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0398AD5-B99C-47AD-BD02-BE67D762A5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0398AD5-B99C-47AD-BD02-BE67D762A5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

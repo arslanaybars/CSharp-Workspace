@@ -1,0 +1,10 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-15CokBoyutlu\wf-15CokBoyutlu\bin\Debug\wf-15CokBoyutlu.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-15CokBoyutlu\wf-15CokBoyutlu\bin\Debug\wf-15CokBoyutlu.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-15CokBoyutlu\wf-15CokBoyutlu\bin\Debug\wf-15CokBoyutlu.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-15CokBoyutlu\wf-15CokBoyutlu\obj\Debug\wf-15CokBoyutlu.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-15CokBoyutlu\wf-15CokBoyutlu\obj\Debug\wf_15CokBoyutlu.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-15CokBoyutlu\wf-15CokBoyutlu\obj\Debug\wf_15CokBoyutlu.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-15CokBoyutlu\wf-15CokBoyutlu\obj\Debug\wf-15CokBoyutlu.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-15CokBoyutlu\wf-15CokBoyutlu\obj\Debug\wf-15CokBoyutlu.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-15CokBoyutlu\wf-15CokBoyutlu\obj\Debug\wf-15CokBoyutlu.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-15CokBoyutlu\wf-15CokBoyutlu\obj\Debug\wf_15CokBoyutlu.Form2.resources

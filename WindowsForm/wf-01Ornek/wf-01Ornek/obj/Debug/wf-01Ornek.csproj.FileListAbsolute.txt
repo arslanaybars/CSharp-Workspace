@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-01Ornek\wf-01Ornek\bin\Debug\wf-01Ornek.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-01Ornek\wf-01Ornek\bin\Debug\wf-01Ornek.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-01Ornek\wf-01Ornek\bin\Debug\wf-01Ornek.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-01Ornek\wf-01Ornek\obj\Debug\wf-01Ornek.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-01Ornek\wf-01Ornek\obj\Debug\wf_01Ornek.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-01Ornek\wf-01Ornek\obj\Debug\wf_01Ornek.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-01Ornek\wf-01Ornek\obj\Debug\wf-01Ornek.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-01Ornek\wf-01Ornek\obj\Debug\wf-01Ornek.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-01Ornek\wf-01Ornek\obj\Debug\wf-01Ornek.pdb
