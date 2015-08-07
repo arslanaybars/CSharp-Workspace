@@ -1,0 +1,5 @@
+C:\Users\wissen\Documents\HIO-BP9\cnsl-08SinifGecme\cnsl-08SinifGecme\bin\Debug\cnsl-08SinifGecme.exe.config
+C:\Users\wissen\Documents\HIO-BP9\cnsl-08SinifGecme\cnsl-08SinifGecme\bin\Debug\cnsl-08SinifGecme.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-08SinifGecme\cnsl-08SinifGecme\bin\Debug\cnsl-08SinifGecme.pdb
+C:\Users\wissen\Documents\HIO-BP9\cnsl-08SinifGecme\cnsl-08SinifGecme\obj\Debug\cnsl-08SinifGecme.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-08SinifGecme\cnsl-08SinifGecme\obj\Debug\cnsl-08SinifGecme.pdb

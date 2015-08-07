@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cnsl-10ToplamBul", "cnsl-10ToplamBul\cnsl-10ToplamBul.csproj", "{5B01320F-39AD-4574-B980-10D95F3FA4FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B01320F-39AD-4574-B980-10D95F3FA4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B01320F-39AD-4574-B980-10D95F3FA4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B01320F-39AD-4574-B980-10D95F3FA4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B01320F-39AD-4574-B980-10D95F3FA4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

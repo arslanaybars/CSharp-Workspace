@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cnsl-08SinifGecme", "cnsl-08SinifGecme\cnsl-08SinifGecme.csproj", "{04225A58-49EB-4E52-9E67-FD000A0DACCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04225A58-49EB-4E52-9E67-FD000A0DACCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04225A58-49EB-4E52-9E67-FD000A0DACCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04225A58-49EB-4E52-9E67-FD000A0DACCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04225A58-49EB-4E52-9E67-FD000A0DACCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

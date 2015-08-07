@@ -1,0 +1,6 @@
+C:\Users\wissen\Documents\HIO-BP9\cnsl-04ifelse\cnsl-04ifelse\bin\Debug\cnsl-04ifelse.exe.config
+C:\Users\wissen\Documents\HIO-BP9\cnsl-04ifelse\cnsl-04ifelse\bin\Debug\cnsl-04ifelse.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-04ifelse\cnsl-04ifelse\bin\Debug\cnsl-04ifelse.pdb
+C:\Users\wissen\Documents\HIO-BP9\cnsl-04ifelse\cnsl-04ifelse\obj\Debug\cnsl-04ifelse.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\cnsl-04ifelse\cnsl-04ifelse\obj\Debug\cnsl-04ifelse.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-04ifelse\cnsl-04ifelse\obj\Debug\cnsl-04ifelse.pdb

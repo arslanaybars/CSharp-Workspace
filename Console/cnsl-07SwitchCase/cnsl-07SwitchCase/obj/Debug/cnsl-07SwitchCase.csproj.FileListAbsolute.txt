@@ -1,0 +1,6 @@
+C:\Users\wissen\Documents\HIO-BP9\cnsl-07SwitchCase\cnsl-07SwitchCase\bin\Debug\cnsl-07SwitchCase.exe.config
+C:\Users\wissen\Documents\HIO-BP9\cnsl-07SwitchCase\cnsl-07SwitchCase\bin\Debug\cnsl-07SwitchCase.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-07SwitchCase\cnsl-07SwitchCase\bin\Debug\cnsl-07SwitchCase.pdb
+C:\Users\wissen\Documents\HIO-BP9\cnsl-07SwitchCase\cnsl-07SwitchCase\obj\Debug\cnsl-07SwitchCase.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\cnsl-07SwitchCase\cnsl-07SwitchCase\obj\Debug\cnsl-07SwitchCase.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-07SwitchCase\cnsl-07SwitchCase\obj\Debug\cnsl-07SwitchCase.pdb

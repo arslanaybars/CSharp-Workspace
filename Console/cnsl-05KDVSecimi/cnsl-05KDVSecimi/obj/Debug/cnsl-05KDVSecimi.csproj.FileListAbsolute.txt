@@ -1,0 +1,5 @@
+C:\Users\wissen\Documents\HIO-BP9\cnsl-05KDVSecimi\cnsl-05KDVSecimi\bin\Debug\cnsl-05KDVSecimi.exe.config
+C:\Users\wissen\Documents\HIO-BP9\cnsl-05KDVSecimi\cnsl-05KDVSecimi\bin\Debug\cnsl-05KDVSecimi.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-05KDVSecimi\cnsl-05KDVSecimi\bin\Debug\cnsl-05KDVSecimi.pdb
+C:\Users\wissen\Documents\HIO-BP9\cnsl-05KDVSecimi\cnsl-05KDVSecimi\obj\Debug\cnsl-05KDVSecimi.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-05KDVSecimi\cnsl-05KDVSecimi\obj\Debug\cnsl-05KDVSecimi.pdb

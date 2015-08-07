@@ -1,0 +1,6 @@
+C:\Users\wissen\Documents\HIO-BP9\cnsl-11WhileDongusu\cnsl-11WhileDongusu\bin\Debug\cnsl-11WhileDongusu.exe.config
+C:\Users\wissen\Documents\HIO-BP9\cnsl-11WhileDongusu\cnsl-11WhileDongusu\bin\Debug\cnsl-11WhileDongusu.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-11WhileDongusu\cnsl-11WhileDongusu\bin\Debug\cnsl-11WhileDongusu.pdb
+C:\Users\wissen\Documents\HIO-BP9\cnsl-11WhileDongusu\cnsl-11WhileDongusu\obj\Debug\cnsl-11WhileDongusu.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\cnsl-11WhileDongusu\cnsl-11WhileDongusu\obj\Debug\cnsl-11WhileDongusu.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-11WhileDongusu\cnsl-11WhileDongusu\obj\Debug\cnsl-11WhileDongusu.pdb

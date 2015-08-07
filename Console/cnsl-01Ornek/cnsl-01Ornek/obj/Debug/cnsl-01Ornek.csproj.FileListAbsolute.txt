@@ -1,0 +1,5 @@
+C:\Users\wissen\Documents\HIO-BP9\cnsl-01Ornek\cnsl-01Ornek\bin\Debug\cnsl-01Ornek.exe.config
+C:\Users\wissen\Documents\HIO-BP9\cnsl-01Ornek\cnsl-01Ornek\bin\Debug\cnsl-01Ornek.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-01Ornek\cnsl-01Ornek\bin\Debug\cnsl-01Ornek.pdb
+C:\Users\wissen\Documents\HIO-BP9\cnsl-01Ornek\cnsl-01Ornek\obj\Debug\cnsl-01Ornek.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-01Ornek\cnsl-01Ornek\obj\Debug\cnsl-01Ornek.pdb

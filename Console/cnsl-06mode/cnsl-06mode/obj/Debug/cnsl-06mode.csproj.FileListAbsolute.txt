@@ -1,0 +1,6 @@
+C:\Users\wissen\Documents\HIO-BP9\cnsl-06mode\cnsl-06mode\bin\Debug\cnsl-06mode.exe.config
+C:\Users\wissen\Documents\HIO-BP9\cnsl-06mode\cnsl-06mode\bin\Debug\cnsl-06mode.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-06mode\cnsl-06mode\bin\Debug\cnsl-06mode.pdb
+C:\Users\wissen\Documents\HIO-BP9\cnsl-06mode\cnsl-06mode\obj\Debug\cnsl-06mode.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\cnsl-06mode\cnsl-06mode\obj\Debug\cnsl-06mode.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-06mode\cnsl-06mode\obj\Debug\cnsl-06mode.pdb

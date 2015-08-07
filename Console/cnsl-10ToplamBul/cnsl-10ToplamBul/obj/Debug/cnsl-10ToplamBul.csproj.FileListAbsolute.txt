@@ -1,0 +1,5 @@
+C:\Users\wissen\Documents\HIO-BP9\cnsl-10ToplamBul\cnsl-10ToplamBul\bin\Debug\cnsl-10ToplamBul.exe.config
+C:\Users\wissen\Documents\HIO-BP9\cnsl-10ToplamBul\cnsl-10ToplamBul\bin\Debug\cnsl-10ToplamBul.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-10ToplamBul\cnsl-10ToplamBul\bin\Debug\cnsl-10ToplamBul.pdb
+C:\Users\wissen\Documents\HIO-BP9\cnsl-10ToplamBul\cnsl-10ToplamBul\obj\Debug\cnsl-10ToplamBul.exe
+C:\Users\wissen\Documents\HIO-BP9\cnsl-10ToplamBul\cnsl-10ToplamBul\obj\Debug\cnsl-10ToplamBul.pdb
