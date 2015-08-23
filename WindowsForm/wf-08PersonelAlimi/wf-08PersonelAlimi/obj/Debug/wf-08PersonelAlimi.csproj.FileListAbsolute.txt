@@ -7,3 +7,6 @@ C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\obj\Debu
 C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\obj\Debug\wf-08PersonelAlimi.csproj.GenerateResource.Cache
 C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\obj\Debug\wf-08PersonelAlimi.exe
 C:\Users\wissen\Documents\HIO-BP9\wf-08PersonelAlimi\wf-08PersonelAlimi\obj\Debug\wf-08PersonelAlimi.pdb
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-08PersonelAlimi\wf-08PersonelAlimi\bin\Debug\wf-08PersonelAlimi.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-08PersonelAlimi\wf-08PersonelAlimi\obj\Debug\wf-08PersonelAlimi.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-08PersonelAlimi\wf-08PersonelAlimi\obj\Debug\wf-08PersonelAlimi.pdb

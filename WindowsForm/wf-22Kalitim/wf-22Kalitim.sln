@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wf-22Kalitim", "wf-22Kalitim\wf-22Kalitim.csproj", "{AF7EE55F-3953-43D2-ADC9-E1D5149862B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF7EE55F-3953-43D2-ADC9-E1D5149862B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7EE55F-3953-43D2-ADC9-E1D5149862B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7EE55F-3953-43D2-ADC9-E1D5149862B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7EE55F-3953-43D2-ADC9-E1D5149862B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

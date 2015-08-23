@@ -1,0 +1,10 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\bin\Debug\wf-21OOP.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\bin\Debug\wf-21OOP.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\bin\Debug\wf-21OOP.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\obj\Debug\wf-21OOP.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\obj\Debug\wf_21OOP.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\obj\Debug\wf_21OOP.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\obj\Debug\wf-21OOP.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\obj\Debug\wf-21OOP.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\obj\Debug\wf-21OOP.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\obj\Debug\wf_21OOP.Form2.resources

@@ -1,0 +1,7 @@
+1;Roman
+2;Hikaye
+3;Macera
+4;Psikolojik
+5;Polisiye
+6;Şiir
+7;Biyografi

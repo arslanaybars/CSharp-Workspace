@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\bin\Debug\wf-19TextYazmaOkuma.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\obj\Debug\wf-19TextYazmaOkuma.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\obj\Debug\wf_19TextYazmaOkuma.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\obj\Debug\wf_19TextYazmaOkuma.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\obj\Debug\wf-19TextYazmaOkuma.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\bin\Debug\wf-19TextYazmaOkuma.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\bin\Debug\wf-19TextYazmaOkuma.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\obj\Debug\wf-19TextYazmaOkuma.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\obj\Debug\wf-19TextYazmaOkuma.pdb

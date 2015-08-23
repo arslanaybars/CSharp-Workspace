@@ -1,0 +1,9 @@
+1;Can;Yücel;(955) 216-51-54;canyucel@gmail.com
+2;Zülfü;Livaneli;(534) 816-26-58;livaneli@hotmail.com
+3;Aybars;Arslan;(955) 216-51-54;aybars@gmail.com
+4;Kubi;Kara;(534) 816-26-58;kubikara@hotmail.com
+5;Ozgur;Aslan;(955) 216-51-54;ozgur@gmail.com
+6;Ali;Dinar;(534) 816-26-58;eli@hotmail.com
+7;Adnan;Kuzu;(955) 216-51-54;ozgur@gmail.com
+8;Aslı;Çiftci;(534) 816-26-58;eli@hotmail.com
+9;Asım;Karakelle;(654) 613-21-95;karakelle@gmail.com

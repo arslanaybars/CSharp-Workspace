@@ -6,3 +6,6 @@ C:\Users\wissen\Documents\HIO-BP9\wf-06BizimYaris\wf-06BizimYaris\obj\Debug\wf_0
 C:\Users\wissen\Documents\HIO-BP9\wf-06BizimYaris\wf-06BizimYaris\obj\Debug\wf-06BizimYaris.csproj.GenerateResource.Cache
 C:\Users\wissen\Documents\HIO-BP9\wf-06BizimYaris\wf-06BizimYaris\obj\Debug\wf-06BizimYaris.exe
 C:\Users\wissen\Documents\HIO-BP9\wf-06BizimYaris\wf-06BizimYaris\obj\Debug\wf-06BizimYaris.pdb
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-06BizimYaris\wf-06BizimYaris\bin\Debug\wf-06BizimYaris.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-06BizimYaris\wf-06BizimYaris\obj\Debug\wf-06BizimYaris.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-06BizimYaris\wf-06BizimYaris\obj\Debug\wf-06BizimYaris.pdb

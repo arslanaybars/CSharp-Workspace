@@ -1,0 +1,12 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\bin\Debug\wf-20PakBank.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\bin\Debug\wf-20PakBank.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\bin\Debug\wf-20PakBank.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf-20PakBank.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf_20PakBank.frmAnaSayfa.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf_20PakBank.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf-20PakBank.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf-20PakBank.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf-20PakBank.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf_20PakBank.frmHesapAcilisi.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf_20PakBank.frmHesapDokumu.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf_20PakBank.frmParaIslemleri.resources

@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\bin\Debug\wf-18Streams.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\bin\Debug\wf-18Streams.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\bin\Debug\wf-18Streams.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\obj\Debug\wf-18Streams.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\obj\Debug\wf_18Streams.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\obj\Debug\wf_18Streams.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\obj\Debug\wf-18Streams.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\obj\Debug\wf-18Streams.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\obj\Debug\wf-18Streams.pdb

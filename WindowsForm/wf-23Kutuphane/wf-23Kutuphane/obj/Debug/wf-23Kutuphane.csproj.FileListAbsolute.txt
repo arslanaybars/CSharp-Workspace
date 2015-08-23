@@ -1,0 +1,15 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\bin\Debug\wf-23Kutuphane.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\bin\Debug\wf-23Kutuphane.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\bin\Debug\wf-23Kutuphane.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf-23Kutuphane.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf_23Kutuphane.frmAnaSayfa.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf_23Kutuphane.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf-23Kutuphane.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf-23Kutuphane.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf-23Kutuphane.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf_23Kutuphane.frmKitapTurleri.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf_23Kutuphane.frmYazarlar.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf_23Kutuphane.frmYazarSorgulama.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf_23Kutuphane.frmYayinEvleri.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf_23Kutuphane.frmYayinEviSorgulama.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf_23Kutuphane.frmKitaplar.resources
