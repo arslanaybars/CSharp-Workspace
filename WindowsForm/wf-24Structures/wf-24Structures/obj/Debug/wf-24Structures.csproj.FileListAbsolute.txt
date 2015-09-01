@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\bin\Debug\wf-24Structures.exe.config
+C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\bin\Debug\wf-24Structures.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\bin\Debug\wf-24Structures.pdb
+C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\obj\Debug\wf-24Structures.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\obj\Debug\wf_24Structures.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\obj\Debug\wf_24Structures.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\obj\Debug\wf-24Structures.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\obj\Debug\wf-24Structures.exe
+C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\obj\Debug\wf-24Structures.pdb

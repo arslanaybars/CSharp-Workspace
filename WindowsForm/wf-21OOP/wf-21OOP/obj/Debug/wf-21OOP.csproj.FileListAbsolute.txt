@@ -8,3 +8,6 @@ C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\obj\Debug\wf-21OOP.csproj.Ge
 C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\obj\Debug\wf-21OOP.exe
 C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\obj\Debug\wf-21OOP.pdb
 C:\Users\wissen\Documents\HIO-BP9\wf-21OOP\wf-21OOP\obj\Debug\wf_21OOP.Form2.resources
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-21OOP\wf-21OOP\bin\Debug\wf-21OOP.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-21OOP\wf-21OOP\obj\Debug\wf-21OOP.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-21OOP\wf-21OOP\obj\Debug\wf-21OOP.pdb

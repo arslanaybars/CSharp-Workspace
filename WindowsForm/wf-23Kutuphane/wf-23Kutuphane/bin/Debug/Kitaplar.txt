@@ -1,2 +1,11 @@
 1;Deneme;Roman;Can Yücel;Sincik;21.8.2015
 2;dsa;Roman;Can Yücel;Sincik;21.8.2015
+3;Kartal Yuvası;Macera;Aybars Arslan;6.45;31.8.2015
+4;Felsefi notlar;Psikolojik;Ozgur Aslan;Sincik;31.8.2015
+5;Kuala;Psikolojik;Aybars Arslan;Kubi;31.8.2015
+6;Erken Kaybedenler;Hikaye;Aslı Çiftci;6.45;31.8.2015
+7;Zülfü;Roman;Zülfü Livaneli;Sincik;31.8.2015
+8;Kar;Roman;Zülfü Livaneli;Sincik;31.8.2015
+9;Adı Yok;Roman;Zülfü Livaneli;Kubi;31.8.2015
+10;Mutluluk;Roman;Zülfü Livaneli;Kubi;31.8.2015
+11;Seni seçtim;Roman;Zülfü Livaneli;Sincik;31.8.2015

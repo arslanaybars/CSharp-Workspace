@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Windows.Forms;
 
 namespace wf_23Kutuphane
 {
@@ -107,6 +108,122 @@ namespace wf_23Kutuphane
             DosyaEkle.WriteLine(k._id.ToString() + ";" + k._kitapadi + ";" + k._kitapturu + ";" + k._kitapyazari + ";" + k._kitapyayinevi + ";" + k._basimtarihi);
             DosyaEkle.Close();
             return true;
+        }
+
+        public void KitaplariGetir(ListView liste)
+        {
+            liste.Items.Clear();
+            StreamReader DosyaOku = new StreamReader("Kitaplar.txt");
+
+            string okunan = DosyaOku.ReadLine();
+
+            int sayac = 0;
+
+            while (okunan != null)
+            {
+                string[] Degerler = okunan.Split(';');
+
+                liste.Items.Add(Degerler[0]);
+                liste.Items[sayac].SubItems.Add(Degerler[1]);
+                liste.Items[sayac].SubItems.Add(Degerler[2]);
+                liste.Items[sayac].SubItems.Add(Degerler[3]);
+                liste.Items[sayac].SubItems.Add(Degerler[4]);
+                liste.Items[sayac].SubItems.Add(Degerler[5]);
+                sayac++;
+
+                okunan = DosyaOku.ReadLine();
+            }
+            DosyaOku.Close();
+        }
+
+        public void kitaplariGetirByDetayli(ListView liste, string tur, string yevi, string yazar)
+        {
+            liste.Items.Clear();
+            StreamReader DosyaOku = new StreamReader("Kitaplar.txt");
+
+            string okunan = DosyaOku.ReadLine();
+
+            int sayac = 0;
+
+            while (okunan != null)
+            {
+                string[] Degerler = okunan.Split(';');
+
+                if ((tur == "Tüm Kitap Türleri" || tur == Degerler[2]) && (yazar == "Tüm Yazarlar" || yazar == Degerler[3]) && (yevi == "Tüm Yayınevleri" || yevi == Degerler[4]))
+                {
+                    liste.Items.Add(Degerler[0]);
+                    for (int i = 1; i < liste.Columns.Count; i++)
+                    {
+                        liste.Items[liste.Items.Count - 1].SubItems.Add(Degerler[i]);
+                    }
+                    //sayac++;                    
+                }
+                okunan = DosyaOku.ReadLine();
+
+                //if (tur != "Tüm Kitap Türleri" && yazar == "Tüm Yazarlar" && yevi == "Tüm Yayınevleri")
+                //{
+                //    if (Degerler[2] != tur)
+                //    {
+                //        okunan = DosyaOku.ReadLine();
+                //        continue;
+                //    }
+                //}
+
+                //else if (tur == "Tüm Kitap Türleri" && yazar != "Tüm Yazarlar" && yevi == "Tüm Yayınevleri")
+                //{
+                //    if (Degerler[3] != yazar)
+                //    {
+                //        okunan = DosyaOku.ReadLine();
+                //        continue;
+                //    }
+                //}
+
+                //else if (tur == "Tüm Kitap Türleri" && yazar == "Tüm Yazarlar" && yevi != "Tüm Yayınevleri")
+                //{
+                //    if (Degerler[4] != yevi)
+                //    {
+                //        okunan = DosyaOku.ReadLine();
+                //        continue;
+                //    }
+                //}
+
+                //else if (tur != "Tüm Kitap Türleri" && yazar != "Tüm Yazarlar" && yevi == "Tüm Yayınevleri")
+                //{
+                //    if (Degerler[2] != tur || Degerler[3] != yazar)
+                //    {
+                //        okunan = DosyaOku.ReadLine();
+                //        continue;
+                //    }
+                //}
+
+                //else if (tur != "Tüm Kitap Türleri" && yazar == "Tüm Yazarlar" && yevi != "Tüm Yayınevleri")
+                //{
+                //    if (Degerler[2] != tur || Degerler[4] != yevi)
+                //    {
+                //        okunan = DosyaOku.ReadLine();
+                //        continue;
+                //    }
+                //}
+
+                //else if (tur == "Tüm Kitap Türleri" && yazar != "Tüm Yazarlar" && yevi != "Tüm Yayınevleri")
+                //{
+                //    if (Degerler[3] != yazar || Degerler[4] != yevi)
+                //    {
+                //        okunan = DosyaOku.ReadLine();
+                //        continue;
+                //    }
+                //}
+
+                //else if (tur != "Tüm Kitap Türleri" && yazar != "Tüm Yazarlar" && yevi != "Tüm Yayınevleri")
+                //{
+                //    if (Degerler[2] != tur || Degerler[3] != yazar || Degerler[4] != yevi)
+                //    {
+                //        okunan = DosyaOku.ReadLine();
+                //        continue;
+                //    }
+                //}
+            }
+            DosyaOku.Close();
         }
     }
 }

@@ -107,6 +107,7 @@
             this.btnSorgulama.TabIndex = 25;
             this.btnSorgulama.Text = "Detaylı Sorgulama";
             this.btnSorgulama.UseVisualStyleBackColor = true;
+            this.btnSorgulama.Click += new System.EventHandler(this.btnSorgulama_Click);
             // 
             // lvDetaylar
             // 
