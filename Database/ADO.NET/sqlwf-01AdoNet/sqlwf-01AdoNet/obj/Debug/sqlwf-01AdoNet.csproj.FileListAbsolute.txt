@@ -1,0 +1,9 @@
+C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\bin\Debug\sqlwf-01AdoNet.exe.config
+C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\bin\Debug\sqlwf-01AdoNet.exe
+C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\bin\Debug\sqlwf-01AdoNet.pdb
+C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf-01AdoNet.csprojResolveAssemblyReference.cache
+C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf_01AdoNet.Form1.resources
+C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf_01AdoNet.Properties.Resources.resources
+C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf-01AdoNet.csproj.GenerateResource.Cache
+C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf-01AdoNet.exe
+C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf-01AdoNet.pdb
