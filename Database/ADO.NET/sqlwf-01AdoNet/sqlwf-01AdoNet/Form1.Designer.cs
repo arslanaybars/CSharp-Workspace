@@ -92,7 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(233, 261);
+            this.ClientSize = new System.Drawing.Size(233, 119);
             this.Controls.Add(this.btnFilmNoGetir);
             this.Controls.Add(this.txtFilmAdi);
             this.Controls.Add(this.lblFilmAdi);

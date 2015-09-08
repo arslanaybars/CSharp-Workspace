@@ -18,7 +18,7 @@ namespace sqlwf_01AdoNet
         {
             InitializeComponent();
         }
-
+        
         private void btnGetir_Click(object sender, EventArgs e)
         {
             //SqlConnection conn = new SqlConnection("DataSource = WISSEN245\\MSSQL2012; Initial Catalog=VideoMarket; Integrated Security = true");

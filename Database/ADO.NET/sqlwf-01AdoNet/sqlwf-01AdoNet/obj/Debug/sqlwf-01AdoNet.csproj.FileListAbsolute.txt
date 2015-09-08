@@ -7,3 +7,6 @@ C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf_
 C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf-01AdoNet.csproj.GenerateResource.Cache
 C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf-01AdoNet.exe
 C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf-01AdoNet.pdb
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-01AdoNet\sqlwf-01AdoNet\bin\Debug\sqlwf-01AdoNet.exe.config
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf-01AdoNet.exe
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf-01AdoNet.pdb
