@@ -18,7 +18,7 @@ namespace sqlwf_01AdoNet
         {
             InitializeComponent();
         }
-        
+
         private void btnGetir_Click(object sender, EventArgs e)
         {
             //SqlConnection conn = new SqlConnection("DataSource = WISSEN245\\MSSQL2012; Initial Catalog=VideoMarket; Integrated Security = true");
@@ -26,7 +26,8 @@ namespace sqlwf_01AdoNet
             //SqlCommand comm = new SqlCommand("select FilmAd from Filmler where FilmNo = " + txtFilmNo.Text, conn);
             SqlCommand comm = new SqlCommand("select FilmAd from Filmler where FilmNo = @FilmNo ", conn);
             comm.Parameters.Add("@FilmNo", SqlDbType.Int).Value = Convert.ToInt32(txtFilmNo.Text);
-            conn.Open();
+            if(conn.State == ConnectionState.Closed)
+                conn.Open();
             txtFilmAdi.Text = Convert.ToString(comm.ExecuteScalar());
             conn.Close();
         }
@@ -36,7 +37,9 @@ namespace sqlwf_01AdoNet
             SqlConnection conn = new SqlConnection("Data Source = WISSEN245\\MSSQL2012; Initial Catalog = VideoMarket; uid = sa; pwd = 12345t");
             SqlCommand comm = new SqlCommand("select FilmNo from Filmler where FilmAd = @FilmAd", conn);
             comm.Parameters.Add("@FilmAd", SqlDbType.VarChar).Value = Convert.ToString(txtFilmAdi.Text);
-            conn.Open();
+            //conn.Open();
+            if (conn.State == ConnectionState.Closed)
+                conn.Open();
             txtFilmNo.Text = Convert.ToString(comm.ExecuteScalar());
             conn.Close();
         }
