@@ -1,0 +1,10 @@
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-03WindowsFormDataSet\sqlwf-03WindowsFormDataSet\bin\Debug\sqlwf-03WindowsFormDataSet.exe.config
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-03WindowsFormDataSet\sqlwf-03WindowsFormDataSet\bin\Debug\sqlwf-03WindowsFormDataSet.exe
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-03WindowsFormDataSet\sqlwf-03WindowsFormDataSet\bin\Debug\sqlwf-03WindowsFormDataSet.pdb
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-03WindowsFormDataSet\sqlwf-03WindowsFormDataSet\obj\Debug\sqlwf-03WindowsFormDataSet.csprojResolveAssemblyReference.cache
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-03WindowsFormDataSet\sqlwf-03WindowsFormDataSet\obj\Debug\sqlwf_03WindowsFormDataSet.Form1.resources
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-03WindowsFormDataSet\sqlwf-03WindowsFormDataSet\obj\Debug\sqlwf_03WindowsFormDataSet.Properties.Resources.resources
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-03WindowsFormDataSet\sqlwf-03WindowsFormDataSet\obj\Debug\sqlwf-03WindowsFormDataSet.csproj.GenerateResource.Cache
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-03WindowsFormDataSet\sqlwf-03WindowsFormDataSet\obj\Debug\sqlwf-03WindowsFormDataSet.exe
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-03WindowsFormDataSet\sqlwf-03WindowsFormDataSet\obj\Debug\sqlwf-03WindowsFormDataSet.pdb
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-03WindowsFormDataSet\sqlwf-03WindowsFormDataSet\obj\Debug\sqlwf_03WindowsFormDataSet.Form2.resources

@@ -10,3 +10,6 @@ C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf-
 C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf_01AdoNet.Form2.resources
 C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf_01AdoNet.Form3.resources
 C:\Users\wissen\Documents\HIO-BP9\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf_01AdoNet.Form4.resources
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-01AdoNet\sqlwf-01AdoNet\bin\Debug\sqlwf-01AdoNet.exe.config
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf-01AdoNet.exe
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-01AdoNet\sqlwf-01AdoNet\obj\Debug\sqlwf-01AdoNet.pdb
