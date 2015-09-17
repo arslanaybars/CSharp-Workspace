@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqlwf-05BindingOkul", "sqlwf-05BindingOkul\sqlwf-05BindingOkul.csproj", "{846209DF-008E-4297-818B-90A7C3F48BEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{846209DF-008E-4297-818B-90A7C3F48BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846209DF-008E-4297-818B-90A7C3F48BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846209DF-008E-4297-818B-90A7C3F48BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846209DF-008E-4297-818B-90A7C3F48BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

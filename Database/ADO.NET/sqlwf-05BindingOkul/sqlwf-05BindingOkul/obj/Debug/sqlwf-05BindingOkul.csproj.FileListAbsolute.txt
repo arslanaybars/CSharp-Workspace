@@ -1,0 +1,9 @@
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-05BindingOkul\sqlwf-05BindingOkul\bin\Debug\sqlwf-05BindingOkul.exe.config
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-05BindingOkul\sqlwf-05BindingOkul\bin\Debug\sqlwf-05BindingOkul.exe
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-05BindingOkul\sqlwf-05BindingOkul\bin\Debug\sqlwf-05BindingOkul.pdb
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-05BindingOkul\sqlwf-05BindingOkul\obj\Debug\sqlwf-05BindingOkul.csprojResolveAssemblyReference.cache
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-05BindingOkul\sqlwf-05BindingOkul\obj\Debug\sqlwf_05BindingOkul.Form1.resources
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-05BindingOkul\sqlwf-05BindingOkul\obj\Debug\sqlwf_05BindingOkul.Properties.Resources.resources
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-05BindingOkul\sqlwf-05BindingOkul\obj\Debug\sqlwf-05BindingOkul.csproj.GenerateResource.Cache
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-05BindingOkul\sqlwf-05BindingOkul\obj\Debug\sqlwf-05BindingOkul.exe
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-05BindingOkul\sqlwf-05BindingOkul\obj\Debug\sqlwf-05BindingOkul.pdb

@@ -1,0 +1,9 @@
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04BindingSource\sqlwf-04BindingSource\bin\Debug\sqlwf-04BindingSource.exe.config
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04BindingSource\sqlwf-04BindingSource\bin\Debug\sqlwf-04BindingSource.exe
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04BindingSource\sqlwf-04BindingSource\bin\Debug\sqlwf-04BindingSource.pdb
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04BindingSource\sqlwf-04BindingSource\obj\Debug\sqlwf-04BindingSource.csprojResolveAssemblyReference.cache
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04BindingSource\sqlwf-04BindingSource\obj\Debug\sqlwf_04BindingSource.Form1.resources
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04BindingSource\sqlwf-04BindingSource\obj\Debug\sqlwf_04BindingSource.Properties.Resources.resources
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04BindingSource\sqlwf-04BindingSource\obj\Debug\sqlwf-04BindingSource.csproj.GenerateResource.Cache
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04BindingSource\sqlwf-04BindingSource\obj\Debug\sqlwf-04BindingSource.exe
+c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04BindingSource\sqlwf-04BindingSource\obj\Debug\sqlwf-04BindingSource.pdb
