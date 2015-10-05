@@ -7,3 +7,6 @@ C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\obj\Debug\wf-05S
 C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\obj\Debug\wf-05SayiBulma.exe
 C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\obj\Debug\wf-05SayiBulma.pdb
 C:\Users\wissen\Documents\HIO-BP9\wf-05SayiBulma\wf-05SayiBulma\obj\Debug\wf-05SayiBulma.csprojResolveAssemblyReference.cache
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-05SayiBulma\wf-05SayiBulma\bin\Debug\wf-05SayiBulma.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-05SayiBulma\wf-05SayiBulma\obj\Debug\wf-05SayiBulma.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-05SayiBulma\wf-05SayiBulma\obj\Debug\wf-05SayiBulma.pdb

@@ -37,8 +37,6 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.lblMarka = new System.Windows.Forms.Label();
-            this.cbMarkalar = new System.Windows.Forms.ComboBox();
             this.cmDetaylar = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.mitmLargeIcon = new System.Windows.Forms.ToolStripMenuItem();
             this.mitmSmallIcon = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,6 +46,8 @@
             this.imgListLarge = new System.Windows.Forms.ImageList(this.components);
             this.imgListSmall = new System.Windows.Forms.ImageList(this.components);
             this.imgListList = new System.Windows.Forms.ImageList(this.components);
+            this.lblMarka = new System.Windows.Forms.Label();
+            this.cbMarkalar = new System.Windows.Forms.ComboBox();
             this.cmDetaylar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -99,29 +99,6 @@
             // 
             this.columnHeader5.Text = "Fiyat";
             this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // lblMarka
-            // 
-            this.lblMarka.AutoSize = true;
-            this.lblMarka.Location = new System.Drawing.Point(177, 24);
-            this.lblMarka.Name = "lblMarka";
-            this.lblMarka.Size = new System.Drawing.Size(77, 13);
-            this.lblMarka.TabIndex = 8;
-            this.lblMarka.Text = "Marka Seçiniz;";
-            // 
-            // cbMarkalar
-            // 
-            this.cbMarkalar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbMarkalar.FormattingEnabled = true;
-            this.cbMarkalar.Items.AddRange(new object[] {
-            "Apple",
-            "Samsung",
-            "Nokia"});
-            this.cbMarkalar.Location = new System.Drawing.Point(155, 40);
-            this.cbMarkalar.Name = "cbMarkalar";
-            this.cbMarkalar.Size = new System.Drawing.Size(121, 21);
-            this.cbMarkalar.TabIndex = 7;
-            this.cbMarkalar.SelectedIndexChanged += new System.EventHandler(this.cbMarkalar_SelectedIndexChanged);
             // 
             // cmDetaylar
             // 
@@ -192,6 +169,29 @@
             this.imgListList.Images.SetKeyName(0, "1.jpg");
             this.imgListList.Images.SetKeyName(1, "2.jpg");
             this.imgListList.Images.SetKeyName(2, "3.jpg");
+            // 
+            // lblMarka
+            // 
+            this.lblMarka.AutoSize = true;
+            this.lblMarka.Location = new System.Drawing.Point(177, 24);
+            this.lblMarka.Name = "lblMarka";
+            this.lblMarka.Size = new System.Drawing.Size(77, 13);
+            this.lblMarka.TabIndex = 8;
+            this.lblMarka.Text = "Marka Seçiniz;";
+            // 
+            // cbMarkalar
+            // 
+            this.cbMarkalar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbMarkalar.FormattingEnabled = true;
+            this.cbMarkalar.Items.AddRange(new object[] {
+            "Apple",
+            "Samsung",
+            "Nokia"});
+            this.cbMarkalar.Location = new System.Drawing.Point(155, 40);
+            this.cbMarkalar.Name = "cbMarkalar";
+            this.cbMarkalar.Size = new System.Drawing.Size(121, 21);
+            this.cbMarkalar.TabIndex = 7;
+            this.cbMarkalar.SelectedIndexChanged += new System.EventHandler(this.cbMarkalar_SelectedIndexChanged);
             // 
             // Form2
             // 

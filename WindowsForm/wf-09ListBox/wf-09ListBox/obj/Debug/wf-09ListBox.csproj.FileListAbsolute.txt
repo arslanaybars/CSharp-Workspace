@@ -9,3 +9,6 @@ C:\Users\wissen\Documents\HIO-BP9\wf-09ListBox\wf-09ListBox\obj\Debug\wf-09ListB
 C:\Users\wissen\Documents\HIO-BP9\wf-09ListBox\wf-09ListBox\obj\Debug\wf-09ListBox.pdb
 C:\Users\wissen\Documents\HIO-BP9\wf-09ListBox\wf-09ListBox\obj\Debug\wf_09ListBox.Form2.resources
 C:\Users\wissen\Documents\HIO-BP9\wf-09ListBox\wf-09ListBox\obj\Debug\wf_09ListBox.Form3.resources
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-09ListBox\wf-09ListBox\bin\Debug\wf-09ListBox.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-09ListBox\wf-09ListBox\obj\Debug\wf-09ListBox.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-09ListBox\wf-09ListBox\obj\Debug\wf-09ListBox.pdb

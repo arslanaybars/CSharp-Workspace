@@ -1,4 +1,4 @@
---DML (Data Manipulation Language) Komutlarý
+DML (Data Manipulation Language) Komutlarý
 
 --Select, Ýstenilen kayýtlarýn tablodan seçlmesini, listelenmesini saðlar.
 --Insert, Tablolara yeni kayýt (satýr-row) ilave edilmesini saðlar.

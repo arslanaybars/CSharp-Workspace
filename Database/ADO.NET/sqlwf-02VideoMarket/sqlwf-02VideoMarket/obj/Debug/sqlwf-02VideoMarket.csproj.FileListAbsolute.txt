@@ -41,3 +41,7 @@ C:\Users\wissen\Desktop\sqlwf-02VideoMarket\sqlwf-02VideoMarket\obj\Debug\sqlwf_
 C:\Users\wissen\Desktop\sqlwf-02VideoMarket\sqlwf-02VideoMarket\obj\Debug\sqlwf_02VideoMarket.Properties.Resources.resources
 C:\Users\wissen\Desktop\sqlwf-02VideoMarket\sqlwf-02VideoMarket\obj\Debug\sqlwf-02VideoMarket.csproj.GenerateResource.Cache
 C:\Users\wissen\Documents\HIO-BP9\sqlwf-02VideoMarket\sqlwf-02VideoMarket\obj\Debug\sqlwf_02VideoMarket.frmSatisSorgulama.resources
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-02VideoMarket\sqlwf-02VideoMarket\obj\Debug\sqlwf_02VideoMarket.frmFilmSatis.resources
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-02VideoMarket\sqlwf-02VideoMarket\obj\Debug\sqlwf_02VideoMarket.frmFilmSorgulama.resources
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-02VideoMarket\sqlwf-02VideoMarket\obj\Debug\sqlwf_02VideoMarket.frmMusteriSorgulama.resources
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-02VideoMarket\sqlwf-02VideoMarket\obj\Debug\sqlwf_02VideoMarket.frmSatisSorgulama.resources

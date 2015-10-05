@@ -14,3 +14,6 @@ C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf_23K
 C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf_23Kutuphane.frmYayinEviSorgulama.resources
 C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf_23Kutuphane.frmKitaplar.resources
 C:\Users\wissen\Documents\HIO-BP9\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf_23Kutuphane.frmRaporlama.resources
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-23Kutuphane\wf-23Kutuphane\bin\Debug\wf-23Kutuphane.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf-23Kutuphane.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-23Kutuphane\wf-23Kutuphane\obj\Debug\wf-23Kutuphane.pdb

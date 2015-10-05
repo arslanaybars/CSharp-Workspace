@@ -11,3 +11,10 @@ C:\Users\wissen\Documents\HIO-BP9\wf-10ListView\wf-10ListView\obj\Debug\wf-10Lis
 D:\VisualStudio\c#-Workspace\WindowsForm\wf-10ListView\wf-10ListView\bin\Debug\wf-10ListView.exe.config
 D:\VisualStudio\c#-Workspace\WindowsForm\wf-10ListView\wf-10ListView\obj\Debug\wf-10ListView.exe
 D:\VisualStudio\c#-Workspace\WindowsForm\wf-10ListView\wf-10ListView\obj\Debug\wf-10ListView.pdb
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-10ListView\wf-10ListView\bin\Debug\wf-10ListView.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-10ListView\wf-10ListView\bin\Debug\wf-10ListView.pdb
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-10ListView\wf-10ListView\obj\Debug\wf-10ListView.csprojResolveAssemblyReference.cache
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-10ListView\wf-10ListView\obj\Debug\wf_10ListView.Form1.resources
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-10ListView\wf-10ListView\obj\Debug\wf_10ListView.Form2.resources
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-10ListView\wf-10ListView\obj\Debug\wf_10ListView.Properties.Resources.resources
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-10ListView\wf-10ListView\obj\Debug\wf-10ListView.csproj.GenerateResource.Cache
