@@ -7,3 +7,6 @@ c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04Bindi
 c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04BindingSource\sqlwf-04BindingSource\obj\Debug\sqlwf-04BindingSource.csproj.GenerateResource.Cache
 c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04BindingSource\sqlwf-04BindingSource\obj\Debug\sqlwf-04BindingSource.exe
 c:\users\wissen\documents\visual studio 2012\AybarsProject\Hafta01\sqlwf-04BindingSource\sqlwf-04BindingSource\obj\Debug\sqlwf-04BindingSource.pdb
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-04BindingSource\sqlwf-04BindingSource\bin\Debug\sqlwf-04BindingSource.exe.config
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-04BindingSource\sqlwf-04BindingSource\obj\Debug\sqlwf-04BindingSource.exe
+D:\VisualStudio\c#-Workspace\Database\ADO.NET\sqlwf-04BindingSource\sqlwf-04BindingSource\obj\Debug\sqlwf-04BindingSource.pdb

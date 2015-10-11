@@ -8,3 +8,6 @@ C:\Users\wissen\Documents\HIO-BP9\wf-25Enum\wf-25Enum\obj\Debug\wf-25Enum.csproj
 C:\Users\wissen\Documents\HIO-BP9\wf-25Enum\wf-25Enum\obj\Debug\wf-25Enum.exe
 C:\Users\wissen\Documents\HIO-BP9\wf-25Enum\wf-25Enum\obj\Debug\wf-25Enum.pdb
 C:\Users\wissen\Documents\HIO-BP9\wf-25enum\wf-25Enum\obj\Debug\wf_25Enum.Form2.resources
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-25Enum\wf-25Enum\bin\Debug\wf-25Enum.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-25Enum\wf-25Enum\obj\Debug\wf-25Enum.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-25Enum\wf-25Enum\obj\Debug\wf-25Enum.pdb
