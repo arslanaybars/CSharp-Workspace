@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Video">
+  <DataContextMoniker Name="/VideoDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b15a37ba-bc60-48ff-bc52-71d6a16ee66a" absoluteBounds="3.625, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/VideoDataContext/Filmler" />
+      <nestedChildShapes>
+        <elementListCompartment Id="37fc7dda-e7c8-4dc3-8263-14f01a104cb3" absoluteBounds="3.6399999999999997, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dbca3c33-ab03-4194-b536-5fbd1989352a" absoluteBounds="4.375, 3.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/VideoDataContext/FilmSati" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c28201da-5ac2-4575-8b05-a19c8d057dbc" absoluteBounds="4.39, 3.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.12748695980699 : 2.84780110677083); (5.12748695980699 : 3.125)]" fixedFrom="Algorithm" fixedTo="Caller">
+      <AssociationMoniker Name="/VideoDataContext/Filmler/Filmler_FilmSati" />
+      <nodes>
+        <classShapeMoniker Id="b15a37ba-bc60-48ff-bc52-71d6a16ee66a" />
+        <classShapeMoniker Id="dbca3c33-ab03-4194-b536-5fbd1989352a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3634b0c6-580a-47e3-8994-835d31829061" absoluteBounds="1.875, 3.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/VideoDataContext/FilmTurleri" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d87ff50f-b2ff-4f8f-8e31-4ab4a6cb0b1a" absoluteBounds="1.8900000000000001, 3.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.2812495 : 3.5); (3.2812495 : 2.74924967447917); (3.625 : 2.74924967447917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VideoDataContext/FilmTurleri/FilmTurleri_Filmler" />
+      <nodes>
+        <classShapeMoniker Id="3634b0c6-580a-47e3-8994-835d31829061" />
+        <classShapeMoniker Id="b15a37ba-bc60-48ff-bc52-71d6a16ee66a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b78b3327-895a-41af-94c3-0fec6dde16c2" absoluteBounds="0.875, 0.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/VideoDataContext/Musteriler" />
+      <nestedChildShapes>
+        <elementListCompartment Id="258f6cc3-446f-4928-9fcd-2b9475310710" absoluteBounds="0.89000000000000012, 1.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.34375 : 2.5881982421875); (1.34375 : 3.28125); (3.19791616666667 : 3.28125 : JumpStart); (3.36458283333333 : 3.28125 : JumpEnd); (4.375 : 3.28125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/VideoDataContext/Musteriler/Musteriler_FilmSati" />
+      <nodes>
+        <classShapeMoniker Id="b78b3327-895a-41af-94c3-0fec6dde16c2" />
+        <classShapeMoniker Id="dbca3c33-ab03-4194-b536-5fbd1989352a" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

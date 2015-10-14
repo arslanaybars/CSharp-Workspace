@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="VideoMarketModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="VideoMarketModelStoreContainer">
+          <EntitySet Name="Filmler" EntityType="VideoMarketModel.Store.Filmler" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FilmSatis" EntityType="VideoMarketModel.Store.FilmSatis" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FilmTurleri" EntityType="VideoMarketModel.Store.FilmTurleri" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Musteriler" EntityType="VideoMarketModel.Store.Musteriler" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Filmler_FilmTurleri" Association="VideoMarketModel.Store.FK_Filmler_FilmTurleri">
+            <End Role="FilmTurleri" EntitySet="FilmTurleri" />
+            <End Role="Filmler" EntitySet="Filmler" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FilmSatis_Filmler" Association="VideoMarketModel.Store.FK_FilmSatis_Filmler">
+            <End Role="Filmler" EntitySet="Filmler" />
+            <End Role="FilmSatis" EntitySet="FilmSatis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FilmSatis_Musteriler" Association="VideoMarketModel.Store.FK_FilmSatis_Musteriler">
+            <End Role="Musteriler" EntitySet="Musteriler" />
+            <End Role="FilmSatis" EntitySet="FilmSatis" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Filmler">
+          <Key>
+            <PropertyRef Name="FilmNo" />
+          </Key>
+          <Property Name="FilmNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FilmAd" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FilmTurNo" Type="int" Nullable="false" />
+          <Property Name="Yonetmen" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="Oyuncular" Type="varchar(max)" />
+          <Property Name="Ozet" Type="varchar(max)" />
+          <Property Name="Miktar" Type="int" Nullable="false" />
+          <Property Name="Varmi" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FilmSatis">
+          <Key>
+            <PropertyRef Name="SatisNo" />
+          </Key>
+          <Property Name="SatisNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Tarih" Type="datetime" Nullable="false" />
+          <Property Name="FilmNo" Type="int" Nullable="false" />
+          <Property Name="MusteriNo" Type="int" Nullable="false" />
+          <Property Name="Adet" Type="int" Nullable="false" />
+          <Property Name="BirimFiyat" Type="money" Nullable="false" />
+          <Property Name="Silindi" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FilmTurleri">
+          <Key>
+            <PropertyRef Name="FilmTurNo" />
+          </Key>
+          <Property Name="FilmTurNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TurAd" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="Aciklama" Type="varchar" MaxLength="150" />
+          <Property Name="Silindi" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Musteriler">
+          <Key>
+            <PropertyRef Name="MusteriNo" />
+          </Key>
+          <Property Name="MusteriNo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MusteriAd" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="MusteriSoyad" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="Telefon" Type="varchar" MaxLength="20" />
+          <Property Name="Adres" Type="varchar" MaxLength="150" />
+          <Property Name="Silindi" Type="bit" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Filmler_FilmTurleri">
+          <End Role="FilmTurleri" Type="VideoMarketModel.Store.FilmTurleri" Multiplicity="1" />
+          <End Role="Filmler" Type="VideoMarketModel.Store.Filmler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FilmTurleri">
+              <PropertyRef Name="FilmTurNo" />
+            </Principal>
+            <Dependent Role="Filmler">
+              <PropertyRef Name="FilmTurNo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FilmSatis_Filmler">
+          <End Role="Filmler" Type="VideoMarketModel.Store.Filmler" Multiplicity="1" />
+          <End Role="FilmSatis" Type="VideoMarketModel.Store.FilmSatis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Filmler">
+              <PropertyRef Name="FilmNo" />
+            </Principal>
+            <Dependent Role="FilmSatis">
+              <PropertyRef Name="FilmNo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FilmSatis_Musteriler">
+          <End Role="Musteriler" Type="VideoMarketModel.Store.Musteriler" Multiplicity="1" />
+          <End Role="FilmSatis" Type="VideoMarketModel.Store.FilmSatis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Musteriler">
+              <PropertyRef Name="MusteriNo" />
+            </Principal>
+            <Dependent Role="FilmSatis">
+              <PropertyRef Name="MusteriNo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VideoMarketModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="VideoMarketEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Filmler" EntityType="VideoMarketModel.Filmler" />
+          <EntitySet Name="FilmSatis" EntityType="VideoMarketModel.FilmSatis" />
+          <EntitySet Name="FilmTurleri" EntityType="VideoMarketModel.FilmTurleri" />
+          <EntitySet Name="Musteriler" EntityType="VideoMarketModel.Musteriler" />
+          <AssociationSet Name="FK_Filmler_FilmTurleri" Association="VideoMarketModel.FK_Filmler_FilmTurleri">
+            <End Role="FilmTurleri" EntitySet="FilmTurleri" />
+            <End Role="Filmler" EntitySet="Filmler" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FilmSatis_Filmler" Association="VideoMarketModel.FK_FilmSatis_Filmler">
+            <End Role="Filmler" EntitySet="Filmler" />
+            <End Role="FilmSatis" EntitySet="FilmSatis" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FilmSatis_Musteriler" Association="VideoMarketModel.FK_FilmSatis_Musteriler">
+            <End Role="Musteriler" EntitySet="Musteriler" />
+            <End Role="FilmSatis" EntitySet="FilmSatis" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Filmler">
+          <Key>
+            <PropertyRef Name="FilmNo" />
+          </Key>
+          <Property Name="FilmNo" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="FilmAd" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="FilmTurNo" Type="Int32" Nullable="false" />
+          <Property Name="Yonetmen" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Oyuncular" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="Ozet" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="Miktar" Type="Int32" Nullable="false" />
+          <Property Name="Varmi" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="FilmTurleri" Relationship="VideoMarketModel.FK_Filmler_FilmTurleri" FromRole="Filmler" ToRole="FilmTurleri" />
+          <NavigationProperty Name="FilmSatis" Relationship="VideoMarketModel.FK_FilmSatis_Filmler" FromRole="Filmler" ToRole="FilmSatis" />
+        </EntityType>
+        <EntityType Name="FilmSatis">
+          <Key>
+            <PropertyRef Name="SatisNo" />
+          </Key>
+          <Property Name="SatisNo" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Tarih" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="FilmNo" Type="Int32" Nullable="false" />
+          <Property Name="MusteriNo" Type="Int32" Nullable="false" />
+          <Property Name="Adet" Type="Int32" Nullable="false" />
+          <Property Name="BirimFiyat" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+          <Property Name="Silindi" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Filmler" Relationship="VideoMarketModel.FK_FilmSatis_Filmler" FromRole="FilmSatis" ToRole="Filmler" />
+          <NavigationProperty Name="Musteriler" Relationship="VideoMarketModel.FK_FilmSatis_Musteriler" FromRole="FilmSatis" ToRole="Musteriler" />
+        </EntityType>
+        <EntityType Name="FilmTurleri">
+          <Key>
+            <PropertyRef Name="FilmTurNo" />
+          </Key>
+          <Property Name="FilmTurNo" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="TurAd" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Aciklama" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+          <Property Name="Silindi" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Filmler" Relationship="VideoMarketModel.FK_Filmler_FilmTurleri" FromRole="FilmTurleri" ToRole="Filmler" />
+        </EntityType>
+        <EntityType Name="Musteriler">
+          <Key>
+            <PropertyRef Name="MusteriNo" />
+          </Key>
+          <Property Name="MusteriNo" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="MusteriAd" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="MusteriSoyad" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Telefon" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Adres" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+          <Property Name="Silindi" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="FilmSatis" Relationship="VideoMarketModel.FK_FilmSatis_Musteriler" FromRole="Musteriler" ToRole="FilmSatis" />
+        </EntityType>
+        <Association Name="FK_Filmler_FilmTurleri">
+          <End Role="FilmTurleri" Type="VideoMarketModel.FilmTurleri" Multiplicity="1" />
+          <End Role="Filmler" Type="VideoMarketModel.Filmler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FilmTurleri">
+              <PropertyRef Name="FilmTurNo" />
+            </Principal>
+            <Dependent Role="Filmler">
+              <PropertyRef Name="FilmTurNo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FilmSatis_Filmler">
+          <End Role="Filmler" Type="VideoMarketModel.Filmler" Multiplicity="1" />
+          <End Role="FilmSatis" Type="VideoMarketModel.FilmSatis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Filmler">
+              <PropertyRef Name="FilmNo" />
+            </Principal>
+            <Dependent Role="FilmSatis">
+              <PropertyRef Name="FilmNo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FilmSatis_Musteriler">
+          <End Role="Musteriler" Type="VideoMarketModel.Musteriler" Multiplicity="1" />
+          <End Role="FilmSatis" Type="VideoMarketModel.FilmSatis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Musteriler">
+              <PropertyRef Name="MusteriNo" />
+            </Principal>
+            <Dependent Role="FilmSatis">
+              <PropertyRef Name="MusteriNo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="VideoMarketModelStoreContainer" CdmEntityContainer="VideoMarketEntities">
+          <EntitySetMapping Name="Filmler">
+            <EntityTypeMapping TypeName="VideoMarketModel.Filmler">
+              <MappingFragment StoreEntitySet="Filmler">
+                <ScalarProperty Name="FilmNo" ColumnName="FilmNo" />
+                <ScalarProperty Name="FilmAd" ColumnName="FilmAd" />
+                <ScalarProperty Name="FilmTurNo" ColumnName="FilmTurNo" />
+                <ScalarProperty Name="Yonetmen" ColumnName="Yonetmen" />
+                <ScalarProperty Name="Oyuncular" ColumnName="Oyuncular" />
+                <ScalarProperty Name="Ozet" ColumnName="Ozet" />
+                <ScalarProperty Name="Miktar" ColumnName="Miktar" />
+                <ScalarProperty Name="Varmi" ColumnName="Varmi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FilmSatis">
+            <EntityTypeMapping TypeName="VideoMarketModel.FilmSatis">
+              <MappingFragment StoreEntitySet="FilmSatis">
+                <ScalarProperty Name="SatisNo" ColumnName="SatisNo" />
+                <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+                <ScalarProperty Name="FilmNo" ColumnName="FilmNo" />
+                <ScalarProperty Name="MusteriNo" ColumnName="MusteriNo" />
+                <ScalarProperty Name="Adet" ColumnName="Adet" />
+                <ScalarProperty Name="BirimFiyat" ColumnName="BirimFiyat" />
+                <ScalarProperty Name="Silindi" ColumnName="Silindi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FilmTurleri">
+            <EntityTypeMapping TypeName="VideoMarketModel.FilmTurleri">
+              <MappingFragment StoreEntitySet="FilmTurleri">
+                <ScalarProperty Name="FilmTurNo" ColumnName="FilmTurNo" />
+                <ScalarProperty Name="TurAd" ColumnName="TurAd" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Silindi" ColumnName="Silindi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Musteriler">
+            <EntityTypeMapping TypeName="VideoMarketModel.Musteriler">
+              <MappingFragment StoreEntitySet="Musteriler">
+                <ScalarProperty Name="MusteriNo" ColumnName="MusteriNo" />
+                <ScalarProperty Name="MusteriAd" ColumnName="MusteriAd" />
+                <ScalarProperty Name="MusteriSoyad" ColumnName="MusteriSoyad" />
+                <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="Silindi" ColumnName="Silindi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

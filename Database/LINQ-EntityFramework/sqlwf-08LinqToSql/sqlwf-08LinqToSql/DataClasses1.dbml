@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="VideoMarket" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=WISSEN245\MSSQL2012;Initial Catalog=VideoMarket;Persist Security Info=True;User ID=sa" SettingsObjectName="sqlwf_08LinqToSql.Properties.Settings" SettingsPropertyName="VideoMarketConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Filmler" Member="Filmlers">
+    <Type Name="Filmler">
+      <Column Name="FilmNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FilmAd" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FilmTurNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Yonetmen" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Oyuncular" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Ozet" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Miktar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Varmi" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Filmler_FilmSati" Member="FilmSatis" ThisKey="FilmNo" OtherKey="FilmNo" Type="FilmSati" />
+      <Association Name="FilmTurleri_Filmler" Member="FilmTurleri" ThisKey="FilmTurNo" OtherKey="FilmTurNo" Type="FilmTurleri" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FilmTurleri" Member="FilmTurleris">
+    <Type Name="FilmTurleri">
+      <Column Name="FilmTurNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TurAd" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Aciklama" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Silindi" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="FilmTurleri_Filmler" Member="Filmlers" ThisKey="FilmTurNo" OtherKey="FilmTurNo" Type="Filmler" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Musteriler" Member="Musterilers">
+    <Type Name="Musteriler">
+      <Column Name="MusteriNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MusteriAd" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="MusteriSoyad" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Telefon" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Adres" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Silindi" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Musteriler_FilmSati" Member="FilmSatis" ThisKey="MusteriNo" OtherKey="MusteriNo" Type="FilmSati" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FilmSatis" Member="FilmSatis">
+    <Type Name="FilmSati">
+      <Column Name="SatisNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Tarih" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="FilmNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MusteriNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Adet" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BirimFiyat" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="Silindi" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Filmler_FilmSati" Member="Filmler" ThisKey="FilmNo" OtherKey="FilmNo" Type="Filmler" IsForeignKey="true" />
+      <Association Name="Musteriler_FilmSati" Member="Musteriler" ThisKey="MusteriNo" OtherKey="MusteriNo" Type="Musteriler" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
