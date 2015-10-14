@@ -19,8 +19,9 @@ namespace wf_20PakBank
             InitializeComponent();
         }
 
-        public static string hesapID;
-        public static string hesapNo;
+        //1.yol için
+        //public static string hesapID;
+        //public static string hesapNo;
 
         Font fntBaslik = new Font("Times New Roman", 16, FontStyle.Bold);
         Font fntDetay = new Font("Times New Roman", 12, FontStyle.Regular);

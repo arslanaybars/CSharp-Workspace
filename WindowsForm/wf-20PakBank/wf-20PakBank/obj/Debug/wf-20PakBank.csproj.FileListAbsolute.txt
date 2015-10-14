@@ -10,3 +10,6 @@ C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf-20PakBa
 C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf_20PakBank.frmHesapAcilisi.resources
 C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf_20PakBank.frmHesapDokumu.resources
 C:\Users\wissen\Documents\HIO-BP9\wf-20PakBank\wf-20PakBank\obj\Debug\wf_20PakBank.frmParaIslemleri.resources
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-20PakBank\wf-20PakBank\bin\Debug\wf-20PakBank.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-20PakBank\wf-20PakBank\obj\Debug\wf-20PakBank.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-20PakBank\wf-20PakBank\obj\Debug\wf-20PakBank.pdb

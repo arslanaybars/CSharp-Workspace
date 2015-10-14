@@ -7,3 +7,6 @@ C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\obj\Debug\wf_2
 C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\obj\Debug\wf-24Structures.csproj.GenerateResource.Cache
 C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\obj\Debug\wf-24Structures.exe
 C:\Users\wissen\Documents\HIO-BP9\wf-24Structures\wf-24Structures\obj\Debug\wf-24Structures.pdb
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-24Structures\wf-24Structures\bin\Debug\wf-24Structures.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-24Structures\wf-24Structures\obj\Debug\wf-24Structures.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-24Structures\wf-24Structures\obj\Debug\wf-24Structures.pdb

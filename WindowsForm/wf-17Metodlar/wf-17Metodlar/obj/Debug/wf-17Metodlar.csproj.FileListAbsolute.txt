@@ -10,3 +10,5 @@ C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf-17Met
 C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf_17Metodlar.Form2.resources
 C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf_17Metodlar.Form3.resources
 C:\Users\wissen\Documents\HIO-BP9\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf_17Metodlar.Form4.resources
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-17Metodlar\wf-17Metodlar\bin\Debug\wf-17Metodlar.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-17Metodlar\wf-17Metodlar\obj\Debug\wf-17Metodlar.exe

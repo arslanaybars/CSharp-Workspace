@@ -7,3 +7,6 @@ C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\bin\De
 C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\bin\Debug\wf-19TextYazmaOkuma.pdb
 C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\obj\Debug\wf-19TextYazmaOkuma.exe
 C:\Users\wissen\Documents\HIO-BP9\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\obj\Debug\wf-19TextYazmaOkuma.pdb
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\bin\Debug\wf-19TextYazmaOkuma.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\obj\Debug\wf-19TextYazmaOkuma.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-19TextYazmaOkuma\wf-19TextYazmaOkuma\obj\Debug\wf-19TextYazmaOkuma.pdb

@@ -7,3 +7,6 @@ C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\bin\Debug\
 C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\bin\Debug\wf-16SatisAnalizi.pdb
 C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\obj\Debug\wf-16SatisAnalizi.exe
 C:\Users\wissen\Documents\HIO-BP9\wf-16SatisAnalizi\wf-16SatisAnalizi\obj\Debug\wf-16SatisAnalizi.pdb
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-16SatisAnalizi\wf-16SatisAnalizi\bin\Debug\wf-16SatisAnalizi.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-16SatisAnalizi\wf-16SatisAnalizi\obj\Debug\wf-16SatisAnalizi.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-16SatisAnalizi\wf-16SatisAnalizi\obj\Debug\wf-16SatisAnalizi.pdb

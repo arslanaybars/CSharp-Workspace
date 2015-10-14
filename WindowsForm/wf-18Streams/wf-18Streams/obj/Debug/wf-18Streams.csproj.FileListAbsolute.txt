@@ -7,3 +7,6 @@ C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\obj\Debug\wf_18Strea
 C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\obj\Debug\wf-18Streams.csproj.GenerateResource.Cache
 C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\obj\Debug\wf-18Streams.exe
 C:\Users\wissen\Documents\HIO-BP9\wf-18Streams\wf-18Streams\obj\Debug\wf-18Streams.pdb
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-18Streams\wf-18Streams\bin\Debug\wf-18Streams.exe.config
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-18Streams\wf-18Streams\obj\Debug\wf-18Streams.exe
+D:\VisualStudio\c#-Workspace\WindowsForm\wf-18Streams\wf-18Streams\obj\Debug\wf-18Streams.pdb
