@@ -33,6 +33,8 @@ select Convert(varchar(20), tarih, 104) as Tarih, FilmNo, MusteriNo, Adet, Birim
 --Not: Convert ile varchara dönüþtürdüðüöüz için büyük küçük gibi karþýlaþtýrmalarda tamamen string ifadelerdeki alfabetik sýralama geçerli olur
 select Convert(varchar(20), tarih, 104) as Tarih, FilmNo, MusteriNo, Adet, BirimFiyat, Adet*BirimFiyat as Tutar from FilmSatis where Convert(Date, tarih, 104) between convert(Date, '01.09.2015', 104) and convert(Date, '03.09.2015', 104)
 
+select Convert(Time, getdate(), 108)
+
 select Convert(Date, getdate(), 104)
 
 --Where Tarih Between tarih1 ad tarih2
