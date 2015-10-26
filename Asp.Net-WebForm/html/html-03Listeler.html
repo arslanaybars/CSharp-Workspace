@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+	<title>HTML Sıralı - Sırasız Listeler</title>
+</head>
+<body>
+	
+	<h2>Listeleme Şekilleri</h2>
+	<a href="#ordered"><h3>Sıralı (Ordered) Listeler</h3></a>
+	<a href="#unordered"><h3>Sırasız (Unordered) Listeler</h3></a>
+	<a href="#yonlendirme"><h3>Sayfaiçi Yönlendirme</h3></a>
+	<a href="html-02Link-Resim.html#link"><h3>Başka sayfaya yönlendirme</h3></a>
+
+	<a name="ordered"><h3>Sıralı Listeler (ordered list)</h3></a>
+	<h4>ol tagleriyle sıralı listeler oluşturulur, type özelliği ile maddeleme karakteri seçilir, li elementi ile maddeler hazırlanır.</h4>
+	<h4>Verilen Eğitimlerimiz</h4>
+	
+	<ol type="1">
+		<li>Yazılım Kursları</li>
+		<ol type="a">
+			<li>.Net Kursları</li>
+			<ol type="i">
+				<li>Windows Applications</li>
+				<li>ASP.Net WebForms</li>
+				<li>ASP.Net MVC</li>
+				<li>WCF Services</li>
+			</ol>
+			<li>Java Kursları</li>
+			<li>Mobile Kursları</li>
+		</ol>
+		<li>Sistem Kursları</li>
+			<ol type="a">
+				<li>Microsoft</li>
+				<li>Cisco</li>
+			</ol>
+		<li>Veritabanı Kursları</li>
+	</ol>
+	
+	<hr/>
+	
+	<a name="unordered"><h3>Sırasız Listeler (unordered list)</h3></a>
+	<h4>ul tagleriyle sırasız listeler oluşturulur, type özelliği ile maddeleme işaretleri seçilir, li elementi ile maddeler hazırlanır.</h4>
+	<h4>Verilen Eğitimlerimiz</h4>
+	
+	<ul type="disc">
+		<li>Yazılım Kursları</li>
+		<ul type="circle">
+			<li>.Net Kursları</li>
+			<ul type="square">
+				<li>Windows Applications</li>
+				<li>ASP.Net WebForms</li>
+				<li>ASP.Net MVC</li>
+				<li>WCF Services</li>
+			</ul>
+			<li>Java Kursları</li>
+			<li>Mobile Kursları</li>
+		</ul>
+		<li>Sistem Kursları</li>
+			<ul type="circle">
+				<li>Microsoft</li>
+				<li>Cisco</li>
+			</ul>
+		<li>Veritabanı Kursları</li>
+	</ul>
+	
+	<hr/>
+
+	<a name="yonlendirme"><h3>Yönlendirme (Sayfa içi - Sayfalar arasi)</h3></a>
+	<h4>Yönlendirme yapmak için yönlendirme yapılacak paragrafa a etiketinin name özelligi ile baslık verilmeli, yönlendirme yapılacak yerden de a href ile #name şeklinde link verilmelidir.</h4>
+
+	
+</body>
+</html>
