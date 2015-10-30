@@ -1,0 +1,68 @@
+﻿#govde {
+    width: 1040px;
+    height: 750px;
+    background-color: silver
+}
+
+#baslik {
+    width: 1000px;
+    height: 120px;
+    background-color: blue;
+    margin: 10px 20px;
+    color: white
+}
+
+#ustmenu {
+    width: 1000px;
+    height: 40px;
+    background-color: green;
+    margin: 5px 20px 5px 20px;
+    color: white
+}
+
+#menu {
+    width: 1040px;
+    height: 400px;
+    margin: 5px 20px 5px 20px
+}
+
+#solmenu {
+    width: 220px;
+    height: 400px;
+    background-color: red;
+    margin: 5px 20px 5px 0px;
+    color: white;
+    float: left
+}
+
+#icerik {
+    width: 500px;
+    height: 400px;
+    background-color: gray;
+    margin: 5px 10px 5px 10px;
+    background-color : white;
+    float: left
+}
+
+#sagmenu {
+    width: 220px;
+    height: 400px;
+    background-color: yellow;
+    margin: 5px 0px 5px 20px;
+    float: left
+}
+
+.sagmenuTab {
+    width: 210px;
+    height: 120px;
+    background-color: pink;
+    margin: 5px
+}
+
+#footer {
+    clear: both;
+    width: 1000px;
+    height: 120px;
+    background-color: orange;
+    margin: 20px 20px
+}

@@ -1,0 +1,52 @@
+﻿body {
+}
+
+.govde {
+    font-weight: bold;
+    text-align: center;
+    border-width: medium;
+    border-color: black;
+    border-style: solid;
+    width: 600px;
+    height: 300px;
+}
+
+.baslik {
+    background-color: silver;
+    font-weight:bold;
+    text-align:center;
+    border-width:medium;
+    border-color:black;
+    border-style: solid;
+    width: 600px;
+    height: 30px;
+}
+
+.haber {
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-family:Verdana;
+    font-size:large;
+    text-align:center;
+}
+
+.resim {
+    border-width:thin;
+    border-color:black;
+    border-style:solid;
+    width:300px;
+    float:left;
+}
+
+.devam {
+    clear:both;
+    background-color: silver;
+    font-weight:bold;
+    text-align:right;
+    border-width:medium;
+    border-color:black;
+    border-style: solid;
+    width: 600px;
+    height: 40px;
+}
