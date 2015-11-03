@@ -56,6 +56,11 @@ namespace web_06DataList
             {
                 //Response.Write("Sil Butonuna tıklandı !");
                 int id = Convert.ToInt32(e.CommandArgument);
+                bool Sonuc = KategoriSil(id);
+                if (Sonuc)
+                {
+                    DataBagla();
+                }
             }
             else if (e.CommandName == "cancel")
             {
@@ -70,7 +75,7 @@ namespace web_06DataList
                 // Hata fırlatmıyo
                 TextBox Aciklama = e.Item.FindControl("txtAciklama") as TextBox;
 
-                bool sonuc = kategoriGuncelle(KategoriAdi.Text, Aciklama.Text, id);
+                bool sonuc = KategoriGuncelle(KategoriAdi.Text, Aciklama.Text, id);
 
                 if (sonuc)
                 {
@@ -80,11 +85,55 @@ namespace web_06DataList
             }
         }
 
-        private bool kategoriGuncelle(string kategoriAdi, string aciklama, int id)
+        private bool KategoriGuncelle(string kategori, string aciklama, int id)
+        {
+            bool sonuc = false;
+            SqlCommand comm = new SqlCommand("Update Kategoriler Set KategoriAd=@KategoriAd, Aciklama=@Aciklama where KategoriNo=@KategoriNo", conn);
+            comm.Parameters.Add("@KategoriAd", SqlDbType.VarChar).Value = kategori;
+            comm.Parameters.Add("@Aciklama", SqlDbType.VarChar).Value = aciklama;
+            comm.Parameters.Add("@KategoriNo", SqlDbType.Int).Value = id;
+
+            if (conn.State == ConnectionState.Closed)
+                conn.Open();
+
+            try
+            {
+                sonuc = Convert.ToBoolean(comm.ExecuteNonQuery());
+            }
+            catch (SqlException ex)
+            {
+                string hata = ex.Message;
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return sonuc;
+        }
+
+        private bool KategoriSil(int id)
         {
             bool sonuc = false;
 
-            
+            SqlCommand comm = new SqlCommand("Update Kategoriler Set Silindi=1 where KategoriNo=@KategoriNo", conn);
+            comm.Parameters.Add("@KategoriNo", SqlDbType.Int).Value = id;
+
+            if (conn.State == ConnectionState.Closed)
+                conn.Open();
+
+            try
+            {
+                sonuc = Convert.ToBoolean(comm.ExecuteNonQuery());
+            }
+            catch (SqlException ex)
+            {
+                string hata = ex.Message;
+            }
+            finally
+            {
+                conn.Close();
+            }
 
             return sonuc;
         }
