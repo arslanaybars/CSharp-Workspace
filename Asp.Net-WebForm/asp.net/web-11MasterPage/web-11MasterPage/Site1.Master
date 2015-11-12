@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="web_11MasterPage.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title></title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="govde">
+            Govde
+            <!--Inline Style-->
+            <div id="baslik">
+                Başlık (header)
+            </div>
+
+            <div id="ustmenu">
+                Ust Menu (Header Menu)
+            </div>
+            <div id="menu">
+                <div id="solmenu">
+                    Sol Menu (Left-Menu Navbar)
+                    <br />
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" StaticSubMenuIndent="10px">
+                        <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#FFFBD6" />
+                        <DynamicSelectedStyle BackColor="#FFCC66" />
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/Windows.aspx" Text="Windows Uygulamaları" Value="Windows Uygulamaları">
+                                <asp:MenuItem NavigateUrl="~/Form.aspx" Text="Windows Forms" Value="Windows Forms"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Console.aspx" Text="Console" Value="Console"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Web.aspx" Text="Web Uygulamaları" Value="Web Uygulamaları">
+                                <asp:MenuItem NavigateUrl="~/WebForms.aspx" Text="WebForms" Value="WebForms"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/MVC.aspx" Text="ASP.Net MVC" Value="ASP.Net MVC"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Mobile.aspx" Text="Mobile Uygulamalar" Value="Mobile Uygulamalar"></asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#FFCC66" />
+                    </asp:Menu>
+                </div>
+
+                <div id="icerik">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+                <div id="sagmenu">
+                    Sağ Menu (Right-Menu Navbar)
+                    <div class="sagmenuTab">1<asp:TreeView ID="TreeView1" runat="server" ImageSet="Arrows" ShowLines="True" Width="160px">
+                        <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
+                        <Nodes>
+                            <asp:TreeNode NavigateUrl="~/Windows.aspx" Text="Windows Uygulamaları" Value="Windows Uygulamaları">
+                                <asp:TreeNode NavigateUrl="~/Form.aspx" Text="Forms" Value="Forms"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Console.aspx" Text="Console" Value="Console"></asp:TreeNode>
+                            </asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Web.aspx" Text="Web Uygulamaları" Value="Web Uygulamaları">
+                                <asp:TreeNode NavigateUrl="~/Web.aspx" Text="Asp.Net Web Forms" Value="Asp.Net Web Forms"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/MVC.aspx" Text="Asp.Net MVC" Value="Asp.Net MVC"></asp:TreeNode>
+                            </asp:TreeNode>
+                        </Nodes>
+                        <NodeStyle Font-Names="Tahoma" Font-Size="10pt" ForeColor="Black" HorizontalPadding="5px" NodeSpacing="0px" VerticalPadding="0px" />
+                        <ParentNodeStyle Font-Bold="False" />
+                        <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" HorizontalPadding="0px" VerticalPadding="0px" />
+                        </asp:TreeView>
+                    </div>
+                    <div class="sagmenuTab">2</div>
+                    <div class="sagmenuTab">3</div>
+                </div>
+            </div>
+            <div id="footer">
+                Footer
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
