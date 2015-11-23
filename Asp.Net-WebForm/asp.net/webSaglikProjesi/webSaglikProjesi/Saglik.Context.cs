@@ -28,5 +28,6 @@ namespace webSaglikProjesi
         public DbSet<AltKategoriler> AltKategoriler { get; set; }
         public DbSet<Kategoriler> Kategoriler { get; set; }
         public DbSet<Urunler> Urunler { get; set; }
+        public DbSet<Uyeler> Uyeler { get; set; }
     }
 }

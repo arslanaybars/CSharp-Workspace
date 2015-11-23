@@ -4,11 +4,12 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="SaglikUrunleriModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="SaglikUrunleriModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityContainer Name="SaglikUrunleriModelStoreContainer">
           <EntitySet Name="AltKategoriler" EntityType="SaglikUrunleriModel.Store.AltKategoriler" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="Kategoriler" EntityType="SaglikUrunleriModel.Store.Kategoriler" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="Urunler" EntityType="SaglikUrunleriModel.Store.Urunler" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Uyeler" EntityType="SaglikUrunleriModel.Store.Uyeler" store:Type="Tables" Schema="dbo" />
           <AssociationSet Name="FK_AltKategoriler_Kategoriler" Association="SaglikUrunleriModel.Store.FK_AltKategoriler_Kategoriler">
             <End Role="Kategoriler" EntitySet="Kategoriler" />
             <End Role="AltKategoriler" EntitySet="AltKategoriler" />
@@ -57,6 +58,22 @@
           <Property Name="resimyolu2" Type="varchar" MaxLength="50" />
           <Property Name="silindi" Type="bit" Nullable="false" />
         </EntityType>
+        <EntityType Name="Uyeler">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="kullaniciad" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="sifre" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="ad" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="soyad" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="tarih" Type="datetime" Nullable="false" />
+          <Property Name="telefon" Type="varchar" MaxLength="20" />
+          <Property Name="adres" Type="varchar" MaxLength="150" />
+          <Property Name="ilce" Type="varchar" MaxLength="50" />
+          <Property Name="il" Type="varchar" MaxLength="50" />
+          <Property Name="tckimlikno" Type="varchar" MaxLength="11" />
+        </EntityType>
         <Association Name="FK_AltKategoriler_Kategoriler">
           <End Role="Kategoriler" Type="SaglikUrunleriModel.Store.Kategoriler" Multiplicity="0..1" />
           <End Role="AltKategoriler" Type="SaglikUrunleriModel.Store.AltKategoriler" Multiplicity="*" />
@@ -93,8 +110,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="SaglikUrunleriModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -114,6 +130,7 @@
             <End Role="Kategoriler" EntitySet="Kategoriler" />
             <End Role="Urunler" EntitySet="Urunler" />
           </AssociationSet>
+          <EntitySet Name="Uyeler" EntityType="SaglikUrunleriModel.Uyeler" />
         </EntityContainer>
         <EntityType Name="AltKategoriler">
           <Key>
@@ -192,6 +209,22 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityType Name="Uyeler">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="kullaniciad" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="sifre" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ad" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="soyad" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="tarih" Nullable="false" Precision="3" />
+          <Property Type="String" Name="telefon" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="adres" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="ilce" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="il" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="tckimlikno" MaxLength="11" FixedLength="false" Unicode="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -233,6 +266,23 @@
                 <ScalarProperty Name="resimyolu1" ColumnName="resimyolu1" />
                 <ScalarProperty Name="resimyolu2" ColumnName="resimyolu2" />
                 <ScalarProperty Name="silindi" ColumnName="silindi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Uyeler">
+            <EntityTypeMapping TypeName="SaglikUrunleriModel.Uyeler">
+              <MappingFragment StoreEntitySet="Uyeler">
+                <ScalarProperty Name="tckimlikno" ColumnName="tckimlikno" />
+                <ScalarProperty Name="il" ColumnName="il" />
+                <ScalarProperty Name="ilce" ColumnName="ilce" />
+                <ScalarProperty Name="adres" ColumnName="adres" />
+                <ScalarProperty Name="telefon" ColumnName="telefon" />
+                <ScalarProperty Name="tarih" ColumnName="tarih" />
+                <ScalarProperty Name="soyad" ColumnName="soyad" />
+                <ScalarProperty Name="ad" ColumnName="ad" />
+                <ScalarProperty Name="sifre" ColumnName="sifre" />
+                <ScalarProperty Name="kullaniciad" ColumnName="kullaniciad" />
+                <ScalarProperty Name="id" ColumnName="id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

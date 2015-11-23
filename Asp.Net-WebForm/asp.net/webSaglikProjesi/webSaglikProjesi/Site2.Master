@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="webSaglikProjesi.Site2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sağlık Ürünleri Admin Panel</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrap">
+            <div id="header">
+                <h1><a href="Default.aspx">SAĞLIK ÜRÜNLERİ</a></h1>
+                <h2>ADMIN PANEL</h2>
+            </div>
+            <div id="top"></div>
+            <div id="contentt">
+                <div id="headermenu">
+                    <div class="headerm">
+                        <ul style="text-align: center; color: white">
+                            <h3>Ürün, Kategori, AltKategori Ekleme - Güncelleme</h3>
+                        </ul>
+                    </div>
+                </div>
+                <div class="left">
+                    <asp:Panel ID="pnlMenu" runat="server">
+                        <h2>Admin İşlemleri</h2>
+                        <ul>
+                            <a href="KategoriEkle.aspx">
+                                <li>Kategori İşlemleri</li>
+                            </a>
+                            <a href="AltKategoriEkle.aspx">
+                                <li>AltKategori İşlemleri</li>
+                            </a>
+                            <a href="UrunEkle.aspx">
+                                <li>Urun İşlemleri</li>
+                            </a>
+                        </ul>
+                    </asp:Panel>
+                </div>
+                <div class="middle">
+                    <%--<h2 id="baslik">Ürünler</h2>--%>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="right">
+                </div>
+                <div style="clear: both"></div>
+            </div>
+            <div id="bottom"></div>
+            <div id="footer">@2015 | Copyright .Net 9 Yazılım Uzmanlığı</div>
+        </div>
+    </form>
+</body>
+</html>

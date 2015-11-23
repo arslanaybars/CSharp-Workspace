@@ -63,6 +63,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin.aspx" />
+    <Content Include="Adres.aspx" />
+    <Content Include="AltKategoriEkle.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Details.aspx" />
     <Content Include="images\AbdominalKorse.jpg" />
@@ -114,14 +117,41 @@
     <Content Include="images\top.jpg" />
     <Content Include="images\UcKanalliYorumlu.jpg" />
     <Content Include="images\yasak.jpg" />
+    <Content Include="KategoriEkle.aspx" />
     <Content Include="Products.aspx" />
+    <Content Include="Sepet.aspx" />
     <Content Include="style.css" />
+    <Content Include="ucLogin.ascx" />
+    <Content Include="UrunEkle.aspx" />
+    <Content Include="UyeKayit.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Adres.aspx.cs">
+      <DependentUpon>Adres.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adres.aspx.designer.cs">
+      <DependentUpon>Adres.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AltKategoriEkle.aspx.cs">
+      <DependentUpon>AltKategoriEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AltKategoriEkle.aspx.designer.cs">
+      <DependentUpon>AltKategoriEkle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AltKategoriler.cs">
       <DependentUpon>Saglik.tt</DependentUpon>
     </Compile>
+    <Compile Include="cSepet.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -135,6 +165,13 @@
     </Compile>
     <Compile Include="Details.aspx.designer.cs">
       <DependentUpon>Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriEkle.aspx.cs">
+      <DependentUpon>KategoriEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriEkle.aspx.designer.cs">
+      <DependentUpon>KategoriEkle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Kategoriler.cs">
       <DependentUpon>Saglik.tt</DependentUpon>
@@ -162,6 +199,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Saglik.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Sepet.aspx.cs">
+      <DependentUpon>Sepet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sepet.aspx.designer.cs">
+      <DependentUpon>Sepet.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -169,7 +213,38 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ucLogin.ascx.cs">
+      <DependentUpon>ucLogin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucLogin.ascx.designer.cs">
+      <DependentUpon>ucLogin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UrunEkle.aspx.cs">
+      <DependentUpon>UrunEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UrunEkle.aspx.designer.cs">
+      <DependentUpon>UrunEkle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Urunler.cs">
+      <DependentUpon>Saglik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UyeKayit.aspx.cs">
+      <DependentUpon>UyeKayit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyeKayit.aspx.designer.cs">
+      <DependentUpon>UyeKayit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Uyeler.cs">
       <DependentUpon>Saglik.tt</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -193,6 +268,7 @@
       <DependentUpon>Saglik.edmx</DependentUpon>
       <LastGenOutput>Saglik.cs</LastGenOutput>
     </Content>
+    <Content Include="Site2.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

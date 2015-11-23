@@ -10,55 +10,46 @@ namespace webSaglikProjesi
     public partial class Site1 : System.Web.UI.MasterPage
     {
         SaglikUrunleriEntities ent = new SaglikUrunleriEntities();
-
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                KategorileriGetir();
-            }
-        }
-
-        private void KategorileriGetir()
-        {
-            var categories = from category in ent.Kategoriler
-                             where category.silindi == false
-                             select new { category.id, category.kategoriad };
-
-            var subCategories = from subCategory in ent.AltKategoriler
-                                where subCategory.silindi == false
-                                select new { subCategory.id, subCategory.altkategoriad, subCategory.kategorino };
-
-            foreach (var kategori in categories)
-            {
-                MenuItem mitm = new MenuItem();
-                mitm.Text = kategori.kategoriad;
-                mitm.Value = Convert.ToString(kategori.id);
-                //mitm.NavigateUrl = "~/Database.aspx";
-                mnuKategoriler.Items.Add(mitm);
-                foreach (var altKategori in subCategories)
+                var kategoriler = (from kategori in ent.Kategoriler
+                                   where kategori.silindi==false
+                                   select kategori).ToList();
+                foreach (var ktg in kategoriler)
                 {
-                    if (kategori.id == altKategori.kategorino)
+                    MenuItem mitm = new MenuItem();
+                    mitm.Text = ktg.kategoriad;
+                    mitm.Value = ktg.id.ToString();
+                    menuKategoriler.Items.Add(mitm);
+
+                    var altkategoriler = (from altkategori in ent.AltKategoriler
+                                          where altkategori.silindi==false && altkategori.kategorino == ktg.id
+                                          select altkategori).ToList();
+
+                    foreach (var altktg in altkategoriler)
                     {
-                        MenuItem citm = new MenuItem();
-                        citm.Text = altKategori.altkategoriad;
-                        citm.Value = Convert.ToString(altKategori.id);
-                        //citm1.NavigateUrl = "~/MYSQL.aspx";
-                        mitm.ChildItems.Add(citm);
+                        MenuItem mitmalt = new MenuItem();
+                        mitmalt.Text = altktg.altkategoriad.ToString();
+                        mitmalt.Value = altktg.id.ToString();
+                        mitm.ChildItems.Add(mitmalt);
                     }
                 }
+
+
+
             }
         }
 
-        protected void mnuKategoriler_MenuItemClick(object sender, MenuEventArgs e)
+        protected void menuKategoriler_MenuItemClick(object sender, MenuEventArgs e)
         {
-            //Response.Write("Seçilen text : " + e.Item.Text + ", Value : " + e.Item.Value);
-            int altkno = 0;
-            string[] Degerler = e.Item.ValuePath.Split('/');
+            //Response.Write("Seçilen text : " + e.Item.Text + " , value : " + e.Item.Value);
+            int altkno=0;
+            string[] Degerler = e.Item.ValuePath.Split('/'); //tıklanan menülerin id değerlerini veriyor. böylece hangi sekmeyi tıkladığmızı anlıyoruz
             if (Degerler.Length == 2)
                 altkno = Convert.ToInt32(Degerler[1]);
-
             Response.Redirect("Products.aspx?kno=" + Degerler[0] + "&akno=" + altkno);
-        }
+       }
     }
 }
