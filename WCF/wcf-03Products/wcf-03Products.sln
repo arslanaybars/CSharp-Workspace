@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcf-03Products", "wcf-03Products\wcf-03Products.csproj", "{588EBB08-B8D4-437B-98AC-CD7927F0FBAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcf-04Test", "wcf-04Test\wcf-04Test.csproj", "{438E31A0-2423-4B62-81C2-C451B905E4DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{588EBB08-B8D4-437B-98AC-CD7927F0FBAC} = {588EBB08-B8D4-437B-98AC-CD7927F0FBAC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{588EBB08-B8D4-437B-98AC-CD7927F0FBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588EBB08-B8D4-437B-98AC-CD7927F0FBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588EBB08-B8D4-437B-98AC-CD7927F0FBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588EBB08-B8D4-437B-98AC-CD7927F0FBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438E31A0-2423-4B62-81C2-C451B905E4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438E31A0-2423-4B62-81C2-C451B905E4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438E31A0-2423-4B62-81C2-C451B905E4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438E31A0-2423-4B62-81C2-C451B905E4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
