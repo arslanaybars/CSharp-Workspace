@@ -1,0 +1,30 @@
+﻿@model mvc_01Ornek.Models.ProductModel
+
+@{
+    ViewBag.Title = "Product";
+}
+
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Product Model</title>
+
+</head>
+<body>
+    <form method="post" action="Product">
+        <h2>Product</h2>
+
+        <div>
+            <label>Product Name : </label>
+            <input id="Name" name="Name" type="text" />
+            <br />
+            <label>Product Price: </label>
+            <input id="Price" name="Price" type="text" />
+            <br />
+            <input id="kaydet" type="submit" value="Kaydet" />
+        </div>
+    </form>
+</body>
+</html>
