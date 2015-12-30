@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc_BusinessObjects", "Mvc-BusinessObjects\Mvc_BusinessObjects.csproj", "{FA303320-32EC-4766-A58C-6393188012C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{A3D8EF60-D790-4EFA-BE90-DBD795CDB763}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA303320-32EC-4766-A58C-6393188012C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA303320-32EC-4766-A58C-6393188012C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA303320-32EC-4766-A58C-6393188012C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA303320-32EC-4766-A58C-6393188012C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3D8EF60-D790-4EFA-BE90-DBD795CDB763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D8EF60-D790-4EFA-BE90-DBD795CDB763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D8EF60-D790-4EFA-BE90-DBD795CDB763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D8EF60-D790-4EFA-BE90-DBD795CDB763}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
