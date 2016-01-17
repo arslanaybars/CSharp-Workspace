@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Mvc_Demo.Models.Employee>
+
+@{
+    ViewBag.Title = "Index";
+}
+<link href="~/Content/Site.css" rel="stylesheet" />
+
+<div style="font-family:Arial">
+    <h2>Html Helpers Demo</h2>
+
+    @*<input type="text" name="firtsname" id="firstname" />*@
+
+    @*@Html.TextBox("firstname")*@
+
+
+    @Html.Label("firstname", "First Name : ")
+
+    @*@Html.TextBox("firstname", "John",
+        new { 
+            style = "background-color:Red; color:White; font-weight:bold", 
+            title = "Please enter your first name"
+            })*@
+
+    @*@Html.TextBox("firstname", "John",
+        new {
+            @class = "redtextbox",
+            @readonly = "true"
+            })*@
+
+    @*@Html.Password("Password")*@
+
+    @Html.TextArea("Comments", "", 5, 20, null)
+
+
+    @Html.Hidden("hidden")
+</div>
