@@ -1,0 +1,25 @@
+﻿@model MvcDemo.Models.EmployeePartial
+
+<table style="font-family:Arial; border:1px solid black; width: 300px">
+    <tr>
+        <td>
+            <img src="@Url.Content(Model.Photo)" alt="@Model.AlternateText" />
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td><b>Age:</b></td>
+                    <td>@Model.Age</td>
+                </tr>
+                <tr>
+                    <td><b>Gender:</b></td>
+                    <td>@Model.Gender</td>
+                </tr>
+                <tr>
+                    <td><b>Salary:</b></td>
+                    <td>@Model.Salary</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

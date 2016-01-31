@@ -1,0 +1,15 @@
+﻿@model IEnumerable<MvcDemo.Models.EmployeePartial>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Partial View Example</h2>
+
+@foreach (var item in Model)
+{
+    @Html.Partial("_Employee", item)
+    
+    @*{ Html.RenderPartial("_Employee", item); }
+    <br/>*@
+} 
