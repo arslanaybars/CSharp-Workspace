@@ -1,0 +1,37 @@
+﻿<html>
+<head>
+    <title>@ViewBag.Title</title>
+    @*All the javascript and css files that are required by the
+        application can be referenced here so that there is no
+        need to reference them in each and every view*@
+</head>
+<body>
+    <table border="1" style="width:800px; font-family:Arial">
+        <tr>
+            <td colspan="2" style="text-align:center; background-color:orange; color:white">
+                <h3>Employee Portal</h3>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:200px; background-color:orange; color:white">
+                @if(IsSectionDefined("Menu"))
+                {
+                   @RenderSection("Menu", false)
+                }
+                else
+                {
+                   @Html.ActionLink("Employe List", "Index")
+                }
+            </td>
+            <td style="width:600px">
+                @RenderBody()
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center; font-size:x-small; background-color:orange; color:white">
+                <h3>Asp.Net Mvc Workout</h3>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

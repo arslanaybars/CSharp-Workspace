@@ -1,0 +1,26 @@
+﻿@model mvc.Models.Employee
+
+<fieldset>
+    <legend>Employee</legend>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Firstname)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Firstname)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Lastname)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Lastname)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Salary)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Salary)
+    </div>
+</fieldset>

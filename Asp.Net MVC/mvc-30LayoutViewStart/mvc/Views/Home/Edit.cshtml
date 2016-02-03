@@ -1,0 +1,61 @@
+﻿@model mvc.Models.Employee
+
+@{
+    ViewBag.Title = "Employee Edit";
+    // can override coll
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    @section Menu
+    {
+        @Html.ActionLink("List", "Index")
+        <br />    
+        @Html.ActionLink("Details", "Details", new { id = Model.Id})
+        <br />
+        @Html.ActionLink("Delete", "Delete", new { id = Model.Id })
+    }
+    
+    <fieldset>
+        <legend>Employee</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Firstname)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Firstname)
+            @Html.ValidationMessageFor(model => model.Firstname)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Lastname)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Lastname)
+            @Html.ValidationMessageFor(model => model.Lastname)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Salary)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Salary)
+            @Html.ValidationMessageFor(model => model.Salary)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
