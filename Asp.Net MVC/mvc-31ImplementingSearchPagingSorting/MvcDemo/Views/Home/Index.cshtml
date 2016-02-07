@@ -1,0 +1,88 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+
+@model IPagedList<MvcDemo.Models.Employee>
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div style="font-family:Arial">
+
+    <h2>Index</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <p>
+        @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+        {
+            <b>Search By:</b>
+            @*searchBy group - Value is value :)*@
+            @Html.RadioButton("searchBy", "Name", true) <text>Name</text>
+            @Html.RadioButton("searchBy", "Gender") <text>Gender</text>
+            <br />
+            @Html.TextBox("search")
+            <input type="Submit" value="Search" />
+        }
+    </p>
+    <table border="1">
+        <tr>
+            <th>
+                @*@Html.DisplayNameFor(model => model.First().Name)*@
+                @Html.ActionLink("Name", "Index", new { sortBy = ViewBag.NameSort, searchBy = Request["searchBy"], search = Request["search"] })
+            </th>
+            <th>
+                @*@Html.DisplayNameFor(model => model.First().Gender)*@
+                @Html.ActionLink("Gender", "Index", new { sortBy = ViewBag.GenderSort, searchBy = Request["searchBy"], search = Request["search"] })
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Email)
+            </th>
+            <th>Action</th>
+        </tr>
+        @if (Model.Count() > 0 && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gender)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4">
+                    No records match search criteria
+                </td>
+            </tr>
+        }
+   </table>
+
+    @*@Html.PagedListPager(Model, page => Url.Action("Index", new
+    {
+        page,
+        searchBy = Request.QueryString["searchBy"],
+        search = Request.QueryString["search"]
+    }
+    ),*@
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, searchBy = Request.QueryString["searchBy"], search = Request.QueryString["search"], sortBy = Request["sortBy"] }), new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded })
+
+    @*new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded, DisplayPageCountAndCurrentLocation = true})*@
+</div>
