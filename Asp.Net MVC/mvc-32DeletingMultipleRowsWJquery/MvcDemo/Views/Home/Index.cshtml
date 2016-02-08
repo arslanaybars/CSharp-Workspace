@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MvcDemo.Models.Employee>
+
+<script src="~/Scripts/jquery-1.8.2.js"></script>
+<script type="text/javascript" language="javascript">
+    $(function () {
+        $("#checkAll").click(function () {
+            $("input[name='employeeIdsToDelete']").attr("checked", this.checked);
+        });
+
+        $("input[name='employeeIdsToDelete']").click(function () {
+            if ($("input[name='employeeIdsToDelete']").length == $("input[name='employeeIdsToDelete']:checked").length) {
+                $("#checkAll").attr("checked", "checked");
+            }
+            else {
+                $("#checkAll").removeAttr("checked");
+            }
+        });
+
+        $("#btnSubmit").click(function () {
+            var count = $("input[name='employeeIdsToDelete']:checked").length;
+            if(count == 0){
+                alert("No rows selecred to delete");
+                return false;
+            }
+            else {
+                return confirm(count + " row(s) will be deleted");
+            }
+
+        })
+    });
+</script>
+
+@using (@Html.BeginForm("Delete", "Home", FormMethod.Post))
+{
+    <table border="1">
+        <thead>
+            <tr>
+                <th>
+                    <input type="checkbox" id="checkAll" />
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Gender
+                </th>
+                <th>
+                    Email
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @*Editor templates name have to match with model name
+                Look Employee.cshtml and Models.Employee*@
+            @Html.EditorForModel()
+        </tbody>
+    </table>
+    <input type="submit" id="btnSubmit" value="Delete selected employees" />
+}
